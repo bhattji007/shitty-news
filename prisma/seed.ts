@@ -1,3 +1,6 @@
+// tsx does not load .env the way the Prisma CLI does, so DATABASE_URL has to
+// be brought in explicitly or this script cannot find the database.
+import 'dotenv/config';
 import { PrismaClient } from '@prisma/client';
 import { SEED_ARTICLES } from './seed-data';
 import { articleSlug, FIRST_ARTICLE_NUMBER, normalizeHeadline } from '../src/lib/format';

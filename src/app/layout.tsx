@@ -17,12 +17,14 @@ const headline = Newsreader({
   display: 'swap',
   variable: '--font-headline',
   weight: ['400', '500', '600', '700'],
+  fallback: ['Georgia', 'Times New Roman', 'serif'],
 });
 
 const body = Inter({
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-body',
+  fallback: ['system-ui', 'Segoe UI', 'Helvetica Neue', 'sans-serif'],
 });
 
 const mono = JetBrains_Mono({
@@ -30,6 +32,7 @@ const mono = JetBrains_Mono({
   display: 'swap',
   variable: '--font-mono',
   weight: ['400', '500', '700'],
+  fallback: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'monospace'],
 });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000';
