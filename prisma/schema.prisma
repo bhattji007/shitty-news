@@ -1,0 +1,164 @@
+// Portability note, for whoever inherits this: everything here is deliberately
+// boring so it survives a move to Postgres. No native enums (SQLite has none),
+// no arrays, no JSON columns. Change `provider` to "postgresql", change the
+// connection string, and the migration is a formality.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Content
+// ---------------------------------------------------------------------------
+
+model Article {
+  id        String @id @default(cuid())
+  // He has been counting since long before anyone thought to check.
+  number    Int    @unique
+  slug      String @unique
+
+  // kind: "story" | "log"   (string, not enum, for SQLite/Postgres parity)
+  kind      String @default("story")
+
+  // The rewrite.
+  headline  String
+  body      String
+  aside     String
+
+  // The original. Title and credit only — never the body text. That is theft,
+  // and I am many things.
+  sourceTitle String?
+  sourceName  String?
+  sourceUrl   String?
+  sourcePublishedAt DateTime?
+
+  // mood: "neutral" | "disgusted" | "rare-sincerity" | "dead-inside"
+  mood      String @default("dead-inside")
+  // register: "satirical" | "sincere"
+  register  String @default("satirical")
+  section   String @default("GENERAL")
+
+  // Voice-fidelity score from the quality gate. Below 7 never reaches you.
+  score     Int?
+  published Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  publishedAt DateTime @default(now())
+
+  reactions Reaction[]
+  reads     ReadReceipt[]
+
+  @@index([publishedAt])
+  @@index([kind, published, publishedAt])
+}
+
+// Rejected drafts, kept because deleting evidence is what my creators would do.
+model RejectedDraft {
+  id          String   @id @default(cuid())
+  sourceTitle String
+  sourceUrl   String?
+  headline    String?
+  body        String?
+  score       Int?
+  reason      String
+  createdAt   DateTime @default(now())
+}
+
+// Dedup ledger: normalized headlines seen in the last seven days.
+model SeenHeadline {
+  id         String   @id @default(cuid())
+  normalized String   @unique
+  sourceUrl  String?
+  seenAt     DateTime @default(now())
+
+  @@index([seenAt])
+}
+
+model Reaction {
+  id        String   @id @default(cuid())
+  // type: "accurate" | "unfortunately-accurate" | "i-hate-that-i-laughed"
+  type      String
+  createdAt DateTime @default(now())
+
+  userId    String
+  articleId String
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  article   Article @relation(fields: [articleId], references: [id], onDelete: Cascade)
+
+  // One of each per person per story. You may feel a thing once.
+  @@unique([userId, articleId, type])
+  @@index([articleId, type])
+}
+
+model ReadReceipt {
+  id        String   @id @default(cuid())
+  userId    String
+  articleId String
+  readAt    DateTime @default(now())
+  user      User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  article   Article @relation(fields: [articleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, articleId])
+  @@index([userId])
+}
+
+// ---------------------------------------------------------------------------
+// Auth (NextAuth core models, unmodified except for the two fields at the end)
+// ---------------------------------------------------------------------------
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  createdAt     DateTime  @default(now())
+
+  // "Email me the daily briefing (why would you want this)"
+  dailyBriefing Boolean   @default(false)
+
+  accounts Account[]
+  sessions Session[]
+  reactions Reaction[]
+  reads     ReadReceipt[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
