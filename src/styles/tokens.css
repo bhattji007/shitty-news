@@ -1,0 +1,45 @@
+/* Portal 2016 design tokens — from the Claude Design export README */
+:root {
+  --red: #c8102e;
+  --red-dark: #8d0a1f;
+  --red-line: #a50d25;
+  --yellow: #ffd400;
+  --ink: #111;
+  --body: #222;
+  --body-2: #333;
+  --body-3: #444;
+  --muted: #666;
+  --muted-2: #777;
+  --muted-3: #888;
+  --muted-4: #999;
+  --page-bg: #ececec;
+  --card-border: #ccc;
+  --card-border-2: #d4d4d4;
+  --link: #0a3d91;
+  --cta-top: #ffe066;
+  --cta-bottom: #f5a300;
+  --cta-border: #b37400;
+  --green-top: #3cc24f;
+  --green-bottom: #1f8a31;
+  --green-border: #176b25;
+  --success: #1a7f37;
+  --toggle-on: #2e8b2e;
+  --toggle-off: #b5b5b5;
+  --chrome-blue: #1a73e8;
+  --advertorial-blue: #1b5fa8;
+  --advertorial-green: #2a9d3a;
+
+  --font-ui: Arial, Helvetica, sans-serif;
+  --font-head: Georgia, 'Times New Roman', serif;
+  --font-logo: 'Arial Black', Arial, sans-serif;
+  --font-system: system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --placeholder: repeating-linear-gradient(45deg, #d9d9d9 0 8px, #cfcfcf 8px 16px);
+  --placeholder-ad: repeating-linear-gradient(45deg, #e4e4e4 0 8px, #dcdcdc 8px 16px);
+  --placeholder-chum: repeating-linear-gradient(45deg, #e0cfc4 0 8px, #d6c3b6 8px 16px);
+  --placeholder-spon: repeating-linear-gradient(45deg, #e8e0c0 0 8px, #ddd4b0 8px 16px);
+
+  --ticker-speed: 70s;
+  --degrade: 0px;        /* set by degrade.ts; body font shrinks by this */
+  --base-font: 13px;
+}

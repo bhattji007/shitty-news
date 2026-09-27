@@ -1,0 +1,29 @@
+{
+  "name": "shittynews",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "shittynews.in — the site is the parody. Real headlines, fake chrome.",
+  "scripts": {
+    "fetch-news": "node scripts/fetch-news.ts",
+    "predev": "node scripts/make-lite-hero.ts",
+    "dev": "astro dev",
+    "prebuild": "node scripts/make-lite-hero.ts",
+    "build": "astro build",
+    "preview": "astro preview",
+    "verify": "node scripts/verify.ts",
+    "test:browser": "node scripts/browser-test.mjs",
+    "deploy": "wrangler pages deploy dist --project-name shittynews"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "dependencies": {
+    "astro": "^5",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4",
+    "ws": "^8.22.0"
+  }
+}

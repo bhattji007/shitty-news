@@ -1,0 +1,70 @@
+---
+import '../styles/global.css';
+import { config } from '../annoyances/config.ts';
+import Masthead from '../components/Masthead.astro';
+import Ticker from '../components/Ticker.astro';
+import Footer from '../components/Footer.astro';
+import Overlays from '../components/Overlays.astro';
+
+interface Props {
+  title: string;
+  page: string;
+  description?: string;
+  chrome?: boolean;   // masthead + ticker + footer
+  overlays?: boolean; // cookie stack, paywall, sticky ad
+  lite?: boolean;
+  preloadImage?: string | null; // the above-the-fold image, if any
+}
+const {
+  title,
+  page,
+  description = 'Real headlines. Everything else is the joke. India\'s #1 News Website*.',
+  chrome = true,
+  overlays = true,
+  lite = false,
+  preloadImage = null,
+} = Astro.props;
+const preconnect = preloadImage ? new URL(preloadImage).origin : null;
+
+const stream = (import.meta.env.STREAM_ENABLED ?? process.env.STREAM_ENABLED) === 'true';
+
+// Runs before first paint: ?sane=1 / ?sane=0, the sane attribute, and the 1-in-50 maintenance redirect.
+const headScript = `(function(){var d=document.documentElement,q=new URLSearchParams(location.search),s=q.get('sane');
+function set(n,v,a){document.cookie=n+'='+v+';path=/;SameSite=Lax;max-age='+a}
+if(s==='1'){set('sane','1',2592000);['v','ov','pw','mt'].forEach(function(n){set(n,'',0)});try{sessionStorage.removeItem('sn.visit')}catch(e){}}
+else if(s==='0'){set('sane','',0)}
+if(/(^|; )sane=1(;|$)/.test(document.cookie)){d.setAttribute('data-sane','');return}
+if(${config.maintenance ? 'true' : 'false'}&&location.pathname!=='/maintenance'){
+  if(/(^|; )mt=1(;|$)/.test(document.cookie)){set('mt','',0)}
+  else if(Math.random()<0.02){set('mt','1',3600);location.replace('/maintenance')}
+}})();`;
+---
+<!doctype html>
+<html lang="en" data-page={page} data-stream={stream ? '1' : '0'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#c8102e" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script is:inline set:html={headScript}></script>
+    {preconnect && <link rel="preconnect" href={preconnect} crossorigin="anonymous" />}
+    {preloadImage && <link rel="preload" as="image" href={preloadImage} fetchpriority="high" referrerpolicy="no-referrer" />}
+    {lite && <link rel="preload" as="image" href="/lite-hero.bmp" />}
+  </head>
+  <body>
+    {lite && (
+      <div class="lite-hero">
+        <img src="/lite-hero.bmp" alt="" width="840" height="832" onload="document.documentElement.classList.add('lite-ready')" onerror="document.documentElement.classList.add('lite-ready')" />
+      </div>
+    )}
+    {chrome && <Masthead lite={lite} />}
+    {chrome && <Ticker />}
+    <slot />
+    {chrome && <Footer />}
+    {overlays && <Overlays />}
+    <script src="../annoyances/index.ts"></script>
+  </body>
+</html>

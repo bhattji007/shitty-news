@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /maintenance
+Sitemap: https://shittynews.in/sitemap.xml

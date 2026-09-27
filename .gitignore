@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+data/news.json
+data/cache/
+dist/
+node_modules/
+.astro/
+.wrangler/
+public/lite-hero.bmp
+.DS_Store
+npm-debug.log*
+stream/node_modules/
