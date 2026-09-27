@@ -1,0 +1,25 @@
+---
+const comments = [
+  { i: 'T', color: '#a65b5b', name: 'Truth_Seeker_1947', loc: 'Unknown', time: '3 hrs ago', up: 214, down: 12, text: 'Where was this paper when the previous corporation did the SAME thing in 2014??? Nobody wrote article then. Also why no news on Ward 12 drainage which is pending since 6 years. Selective journalism. Shame.' },
+  { i: 'R', color: '#5b7fa6', name: 'Rohit_77', loc: 'Ghaziabad', time: '4 hrs ago', up: 2, down: 48, text: 'First' },
+  { i: 'S', color: '#6b8f5b', name: 'Suresh K. Menon (Retd.)', loc: 'Thiruvananthapuram', time: '2 hrs ago', up: 31, down: 0, text: 'I am reading this news with great interest as I remember in the 1990s when such things were handled at the office counter itself. My late father used to take me on his Bajaj Chetak, which started only after tilting it sideways, and we would stand in line for two hours with the challan in a plastic folder. Nobody was complaining. There was no online, no deadline extension, nothing. If you missed the date, you simply paid the penalty and came home and watched Chitrahaar on Doordarshan. Wednesday was Chitrahaar, Sunday morning was Rangoli, and Sunday evening the whole colony came to our house because we had the only colour TV in the lane, which my mother covered with a lace cloth when not in use. We drank Rasna and ate Parle-G, which was bigger then, I am certain of it. In those days a phone call to Bombay meant going to the STD-ISD-PCO booth after 11 pm for the cheaper rate, and the meter running in red numbers was more exciting than any web series today. Children played gully cricket until the streetlights came on and nobody needed an app to tell them the monsoon would arrive on schedule. We simply looked at the sky. Today everything is online, yet everything still needs 15 extra days. What is the use of all this technology? My grandson says I should post this on Facebook instead, but I have read this newspaper since 1987, even though now it asks me to pay ₹0 every time I open it. Anyway, I did my part on the first day itself, as always. Those were the days. Jai Hind.' },
+];
+---
+<section class="comments" data-comments data-annoy="comments">
+  <div class="comments__head"><b>Comments (3)</b><small>Sort by: <b>Oldest</b> | <a href="#">Newest</a> | <a href="#">Most Upvoted</a> | <a href="#">Most Downvoted</a></small></div>
+  <div class="comments__box">Characters remaining: 3000 · <a href="/subscribe">Login with Facebook</a> / <a href="/subscribe">Google</a> / <a href="/subscribe">Orkut</a> to comment</div>
+  <div data-comments-list>
+    {comments.map((c) => (
+      <div class="comment">
+        <div class="av" style={`background:${c.color}`}>{c.i}</div>
+        <div style="flex:1;min-width:0">
+          <div class="who"><b>{c.name}</b> <span>· {c.loc} · {c.time}</span></div>
+          <div class="txt">{c.text}</div>
+          <div class="acts"><span>▲ {c.up}</span><span>▼ {c.down}</span><a href="#">Reply</a><a href="#">Report</a></div>
+        </div>
+      </div>
+    ))}
+  </div>
+  <button class="comments__more" type="button" data-comments-more>Load 4,120 more comments</button>
+  <div class="comments__note">Views expressed by readers are their own. Comments are moderated and may be published in 6–8 working weeks.</div>
+</section>

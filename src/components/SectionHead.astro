@@ -1,0 +1,5 @@
+---
+interface Props { title: string; more?: string; class?: string }
+const { title, more = '/category/top', class: cls = '' } = Astro.props;
+---
+<div class={`section-head ${cls}`}><span>{title}</span><a href={more}>View all ›</a></div>

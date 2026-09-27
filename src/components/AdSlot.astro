@@ -1,0 +1,6 @@
+---
+interface Props { size: '728' | '300x250' | '300x600' | 'row' | '250'; label?: string }
+const { size, label } = Astro.props;
+const text = label ?? ({ '728': '728 × 90', '300x250': '300 × 250', '300x600': '300 × 600', row: 'Home loans @ 8.4%* · Apply in 2 minutes*', '250': 'ADVERTISEMENT' }[size]);
+---
+<div class={`ad ad--${size}`}><small>ADVERTISEMENT</small><b>{text}</b></div>

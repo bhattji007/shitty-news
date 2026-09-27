@@ -1,0 +1,13 @@
+---
+import { tiles } from '../annoyances/chumbox.ts';
+// Server-rendered from the page path so the tiles exist without JS; chumbox.ts re-seeds identically on the client.
+const initial = tiles(Astro.url.pathname);
+---
+<div class="box chumbox" data-chumbox data-annoy="chumbox">
+  <div class="chumbox__head"><b>You May Like</b><small>Sponsored Links by Toobala ▷ · ShittyNews earns from these</small></div>
+  <div class="chumbox__grid">
+    {initial.map((t) => (
+      <a class="chum" href={t.href}><div class="chum__img">{t.caption}</div><div class="chum__t">{t.title}</div><div class="chum__s">{t.source} | Sponsored</div></a>
+    ))}
+  </div>
+</div>

@@ -1,0 +1,20 @@
+---
+import type { Article } from '../lib/news/types.ts';
+import Thumb from './Thumb.astro';
+import { timeAgo, catLabel } from '../lib/format.ts';
+interface Props { article: Article }
+const { article } = Astro.props;
+const href = `/article/${article.slug}`;
+const prefixes = ['Explained:', 'Watch:', 'In pics:', 'Live updates:'];
+---
+<div class="box lead">
+  <a href={href}><Thumb article={article} ratio="169" live eager /></a>
+  <div>
+    <div class="kicker">{catLabel(article.category)} · {timeAgo(article.publishedAt)}</div>
+    <h2><a href={href}>{article.title}</a></h2>
+    {article.description && <p>{article.description}</p>}
+    <ul>
+      {prefixes.map((p) => <li><a href={href}><span style="color:#666">{p}</span> {article.title}</a></li>)}
+    </ul>
+  </div>
+</div>

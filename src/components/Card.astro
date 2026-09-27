@@ -1,0 +1,16 @@
+---
+import type { Article } from '../lib/news/types.ts';
+import Thumb from './Thumb.astro';
+import { timeAgo, catLabel } from '../lib/format.ts';
+interface Props { article: Article; index?: number }
+const { article, index = 0 } = Astro.props;
+const badges = ['LIVE', '', '', '▶ 01:42', 'PHOTOS 14', '', '', 'EXPLAINED', '▶ 00:58', '', '', 'PREMIUM'];
+const badge = badges[index % badges.length];
+---
+<a class="card" href={`/article/${article.slug}`}>
+  <Thumb article={article} badge={badge || undefined} />
+  <div class="card__body">
+    <div class="card__title">{article.title}</div>
+    <div class="card__meta">{catLabel(article.category)} · {timeAgo(article.publishedAt)}</div>
+  </div>
+</a>

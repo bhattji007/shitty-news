@@ -1,0 +1,128 @@
+[
+  {
+    "id": "meerut-miracle-churna",
+    "brand": "Aaj Ki Health News",
+    "section": "HEALTH · MEERUT",
+    "headline": "Doctors hate this Meerut man: Retired PWD clerk loses 18 kg in 21 days with \"kitchen jugaad\"",
+    "name": "Dr. Tyagi's Meerut Miracle Churna™",
+    "claims": "✔ 100% Natural ✔ No side effects* ✔ AYUSH-inspired",
+    "was": "₹4,999", "now": "₹499",
+    "stock": "Only 7 packs left in stock (since 2019)",
+    "hero": "[before / after photo, different men]",
+    "heroNote": "Image for representational purposes only. Meerut man is also representational.",
+    "body": [
+      "Ramesh Tyagi, 58, had tried everything: morning walks at Gandhi Bagh, lauki juice, and a treadmill his son bought on EMI that is now used to dry clothes. Then his neighbour, a retired Ayurvedacharya, told him about a 400-year-old formula that big pharma companies \"do not want you to know\".",
+      "\"Within one week my kurta became loose,\" Tyagi told us. \"Within two weeks, the doctors in Meerut were very angry.\""
+    ],
+    "testimonials": [
+      { "name": "Sunita Agarwal", "text": "I ordered for my husband. He has not tried it yet but already feeling lighter.", "ago": "2 min" },
+      { "name": "Pradeep Chauhan", "text": "Doctor uncle in our building is not talking to me since I started this. Proof it works.", "ago": "6 min" },
+      { "name": "Anil K.", "text": "Delivered in 3 days. Box was very nice.", "ago": "9 min" }
+    ]
+  },
+  {
+    "id": "bareilly-barfi-box",
+    "brand": "Desi Bazaar Daily",
+    "section": "FOOD · BAREILLY",
+    "headline": "Bareilly ki barfi shocks NRI: \"I flew 14 hours and this is all I wanted\"",
+    "name": "Original Bareilly Barfi Box (Export Quality)",
+    "claims": "✔ Ghee-adjacent ✔ Ships to 41 countries* ✔ Customs not included",
+    "was": "₹2,100", "now": "₹699",
+    "stock": "Only 3 boxes left (batch of 2022)",
+    "hero": "[NRI gasping at sweet, airport in background]",
+    "heroNote": "Barfi shown is representational. NRI is real but declined to be named.",
+    "body": [
+      "When Vikram S., 41, landed at Delhi from New Jersey, he did not go to his parents' house. He went to a sweet shop near Bareilly Junction that has been operating, according to the signboard, since either 1947 or 1974.",
+      "\"My whole body was shaking,\" Vikram told us over WhatsApp voice note. \"Not from the sugar. From emotion. Okay, some sugar.\""
+    ],
+    "testimonials": [
+      { "name": "Meera Kapoor (Toronto)", "text": "Box arrived slightly open. Barfi was fine. Cried a little.", "ago": "4 min" },
+      { "name": "Deepak Jindal", "text": "Ordered 3 boxes. Ate 3 boxes. Ordering 3 boxes.", "ago": "11 min" },
+      { "name": "Rita Auntie", "text": "Not as good as mine but okay for outside people.", "ago": "15 min" }
+    ]
+  },
+  {
+    "id": "gurgaon-cooling-gadget",
+    "brand": "TechDeals India",
+    "section": "GADGETS · GURGAON",
+    "headline": "Gurgaon families are replacing their ACs with this ₹499 gadget. Electricity board furious.",
+    "name": "ChillMax Pro Personal Cooling Unit",
+    "claims": "✔ No compressor ✔ No gas ✔ No cooling (in humid conditions)",
+    "was": "₹3,999", "now": "₹499",
+    "stock": "Only 12 units left in Sector 56 warehouse",
+    "hero": "[small fan, large red arrow]",
+    "heroNote": "Arrow added for clarity. Fan is actual size.",
+    "body": [
+      "Residents of a Gurgaon society have reportedly stopped using their 1.5-ton split ACs after a resident's cousin, who is \"in the electronics line\", introduced a device the size of a tiffin box.",
+      "\"Our bill came down from ₹8,000 to ₹7,800,\" said one resident, standing directly in front of the device. \"Also it makes a sound, so you know it's working.\""
+    ],
+    "testimonials": [
+      { "name": "Neha Bhalla", "text": "It is a fan. But a nice fan. 5 stars.", "ago": "1 min" },
+      { "name": "Col. Rajiv Malhotra (Retd.)", "text": "Kept it in the car. Car is still hot. Device is cool though.", "ago": "8 min" },
+      { "name": "Sahil", "text": "Bro it literally says 'fan' on the box", "ago": "13 min" }
+    ]
+  },
+  {
+    "id": "pension-scheme-1985",
+    "brand": "Policy Tips",
+    "section": "FINANCE · NEW DELHI",
+    "headline": "Born before 1985? You may be eligible for this pension scheme nobody told you about",
+    "name": "Sampoorna Suraksha Bharosa Yojana Plus (Not Govt.)",
+    "claims": "✔ Guaranteed returns* ✔ Zero paperwork** ✔ Agent will come home",
+    "was": "₹0", "now": "₹0",
+    "stock": "Enrolment closes when our executive gets tired",
+    "hero": "[old couple, surprised, holding a document]",
+    "heroNote": "Couple is representational. Surprise is genuine.",
+    "body": [
+      "Millions of Indians born before 1985 are \"leaving money on the table\", according to a man who sells pension plans. The scheme, which is definitely not a government scheme despite the name, promises returns that are described as both guaranteed and market-linked.",
+      "\"Just share your Aadhaar, PAN, and mother's maiden name,\" the executive said. \"For verification.\""
+    ],
+    "testimonials": [
+      { "name": "Ashok Kumar Saxena", "text": "Executive came home, drank tea, took documents. Very professional.", "ago": "3 min" },
+      { "name": "Kamla Devi", "text": "I was born in 1986 but they said close enough.", "ago": "7 min" },
+      { "name": "Vinod", "text": "Still waiting for the pension. It has been 2 days.", "ago": "10 min" }
+    ]
+  },
+  {
+    "id": "kota-coaching-trick",
+    "brand": "Education Hub",
+    "section": "EDUCATION · KOTA",
+    "headline": "This Kota coaching trick is banned in 3 states. Toppers use it daily.",
+    "name": "RankBooster 360° Memory Formula (60 capsules)",
+    "claims": "✔ Remember everything ✔ Forget nothing ✔ Except where you kept the bottle",
+    "was": "₹1,999", "now": "₹899",
+    "stock": "Only 2 bottles left before JEE",
+    "hero": "[blackboard with something circled]",
+    "heroNote": "The circled thing is not visible. That is the trick.",
+    "body": [
+      "A method developed \"by a topper's uncle\" is reportedly sweeping Kota's coaching corridors. The trick cannot be described in this article for legal reasons, but it involves a capsule, a routine, and believing in yourself.",
+      "\"My son's rank improved from 2,41,000 to 2,39,000,\" said one parent. \"That is 2,000 ranks. Do the maths.\""
+    ],
+    "testimonials": [
+      { "name": "Priyanka Sharma", "text": "Bought for my brother. He is now remembering things from 2019 that we had all agreed to forget.", "ago": "5 min" },
+      { "name": "Aman Gupta", "text": "Banned in 3 states? Which ones? Asking for exam purposes.", "ago": "9 min" },
+      { "name": "Tutor Sir", "text": "As a coaching teacher I do not endorse this. Also, buy 2 get 1.", "ago": "14 min" }
+    ]
+  },
+  {
+    "id": "indore-zero-bill",
+    "brand": "Solar Savings",
+    "section": "HOME · INDORE",
+    "headline": "Indore aunty reveals secret to zero electricity bill. Discom has no comment.",
+    "name": "BijliBachao Home Power Saver (Wall Plug Type)",
+    "claims": "✔ Plug and forget ✔ Saves up to 90%* ✔ Blinks reassuringly",
+    "was": "₹2,499", "now": "₹399",
+    "stock": "Only 9 units left (as of 2021)",
+    "hero": "[aunty on rooftop, pointing at sun]",
+    "heroNote": "Sun is real. Rooftop is representational.",
+    "body": [
+      "Sushila Ji of Indore's Vijay Nagar area claims her electricity bill has been zero for six months. Neighbours confirm the meter reader has not come in six months. The connection between the two has not been established.",
+      "\"I just plugged this in and stopped opening envelopes,\" Sushila Ji told us. \"Peace of mind is also a saving.\""
+    ],
+    "testimonials": [
+      { "name": "Manoj Jain", "text": "Bill is same but the LED is very soothing at night.", "ago": "2 min" },
+      { "name": "Renu Patel", "text": "My husband says it is a night lamp. My husband says a lot of things.", "ago": "6 min" },
+      { "name": "Electrician Bhaiya", "text": "Please do not plug this next to the geyser.", "ago": "12 min" }
+    ]
+  }
+]

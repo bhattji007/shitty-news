@@ -1,0 +1,124 @@
+---
+import CookiePanel from './CookiePanel.astro';
+const neighbours: [string, string][] = [['S', '#8b5a2b'], ['G', '#2b6b8b'], ['V', '#6b2b8b'], ['M', '#2b8b4f'], ['K', '#8b2b3b'], ['A', '#555']];
+---
+<!-- App-install bar (last stage of the overlay stack) -->
+<div class="appbar" data-ov="appbar" data-annoy="overlays" hidden>
+  <button class="x" type="button" data-ov-dismiss aria-label="Close">×</button>
+  <div class="icon">S</div>
+  <div class="txt">
+    <div><b>Read this in our app</b></div>
+    <small>ShittyNews · ★★☆☆☆ 2.1 · 10 Cr+ downloads (pre-installed on your phone)</small>
+    <button class="cont" type="button" data-ov-dismiss>Continue in browser (slower)</button>
+  </div>
+  <a class="open" href="https://play.google.com/store/apps/details?id=in.shittynews.app" rel="nofollow noopener" target="_blank">OPEN</a>
+</div>
+
+<!-- Chrome-style notification prompt -->
+<div class="notif" data-ov="notif-chrome" data-annoy="overlays" hidden role="dialog" aria-label="Notification permission">
+  <button class="x" type="button" data-ov-block aria-label="Close">×</button>
+  <div class="ask">
+    <div class="t">shittynews.in wants to</div>
+    <div class="b">🔔 Show notifications</div>
+    <div class="btns"><button class="block" type="button" data-ov-block>Block</button><button class="allow" type="button" data-ov-allow>Allow</button></div>
+  </div>
+  <div class="blocked" hidden>Okay. We'll ask again in 5 minutes.</div>
+</div>
+
+<!-- The site's own prompt -->
+<div class="notif notif--site" data-ov="notif-site" data-annoy="overlays" hidden role="dialog" aria-label="Notifications">
+  <button class="x" type="button" data-ov-block aria-label="Close">×</button>
+  <div class="ask">
+    <div class="t">🔔 Never miss nothing happening</div>
+    <div class="b">Get instant alerts for breaking news, property tax deadlines, and rashifal.</div>
+    <div class="btns"><button class="block" type="button" data-ov-block>Not now</button><button class="allow" type="button" data-ov-allow>YES, ALERT ME</button></div>
+  </div>
+  <div class="blocked" hidden>We understand. We'll ask again on the next page.</div>
+</div>
+
+<!-- A third one, apologising -->
+<div class="notif notif--site" data-ov="notif-sorry" data-annoy="overlays" hidden role="dialog" aria-label="Apology">
+  <button class="x" type="button" data-ov-block aria-label="Close">×</button>
+  <div class="ask">
+    <div class="t">Sorry about those two prompts.</div>
+    <div class="b">We know they were annoying. To make it up to you, would you like to enable notifications?</div>
+    <div class="btns"><button class="block" type="button" data-ov-block>No</button><button class="allow" type="button" data-ov-allow>Fine, allow</button></div>
+  </div>
+  <div class="blocked" hidden>Noted. We are sorry about this one too.</div>
+</div>
+
+<!-- Cookie banner -->
+<div class="cookie-banner" data-ov="cookie" data-annoy="overlays" hidden role="dialog" aria-label="Cookie consent">
+  <div class="in">
+    <div class="copy">
+      <b>We value your privacy</b><br />
+      We and our <button type="button" data-ov-manage><span data-cp-total>400</span> partners</button> store and/or access information on your device, such as cookies, and process personal data, such as unique identifiers, browsing history, location, and standard information sent by your device, for personalised ads and content, ad and content measurement, audience research and product development. By continuing to browse, scroll, or close this banner, you consent to the above.
+    </div>
+    <div class="btns">
+      <span class="tipwrap"><button class="btn-reject" type="button" disabled title="Coming soon" aria-disabled="true">Reject all</button><span class="tip">Coming soon</span></span>
+      <button class="btn-manage" type="button" data-ov-manage>Manage <span data-cp-total>400</span> preferences</button>
+      <button class="btn-accept" type="button" data-ov-accept>Accept all</button>
+    </div>
+  </div>
+</div>
+
+<!-- Cookie preference panel (modal) -->
+<div class="modal" data-cookie-panel="modal" data-annoy="cookie400" hidden role="dialog" aria-label="Privacy Preference Center">
+  <CookiePanel mode="modal" />
+</div>
+
+<!-- Paywalls, 5 levels -->
+<div class="modal modal--pw" data-paywall data-annoy="paywall" hidden role="dialog" aria-label="Subscribe">
+  <div class="pw pw1" data-level="1">
+    <div class="head"><span class="wm">ShittyNews</span><span class="plus">SHITTY+</span></div>
+    <span class="star">70% OFF<br />on ₹0!</span>
+    <div class="body">
+      <h2>Support quality journalism</h2>
+      <div class="lede">ShittyNews reporters work round the clock to bring you news about property tax deadlines. Subscribe to keep reading.</div>
+      <div class="ticks">✔ Ad-lite experience*<br />✔ Unlimited access to this article<br />✔ Yesterday's E-Paper</div>
+      <div class="price"><s style="color:#999">₹999</s> <b>₹0</b><span style="font-size:12px">/month</span> <em>Offer ends in 04:59</em></div>
+      <a class="cta-yellow" href="/subscribe">SUBSCRIBE NOW »</a>
+      <div class="foot"><a href="/subscribe">Already a subscriber? Sign in</a><button class="dismiss" type="button" data-pw="dismiss">Maybe later</button></div>
+      <div class="fine">*Ad-lite means the same number of ads, arranged more lightly.</div>
+    </div>
+  </div>
+  <div class="pw pw2" data-level="2">
+    <div class="head"><span class="dot"></span> FREE ARTICLE LIMIT REACHED</div>
+    <div class="body">
+      <h2>You've read 1 free article. Wow.</h2>
+      <div class="lede">That's your entire monthly quota of 1. Most readers stop at the headline.</div>
+      <div class="meter"><i></i></div>
+      <div class="used">1 of 1 free articles used · Resets in 30 days · or ₹0</div>
+      <a class="cta-yellow" href="/subscribe">CONTINUE READING FOR ₹0 »</a>
+      <div class="foot"><button class="dismiss" type="button" data-pw="dismiss">No thanks, I'll just read the headline</button></div>
+    </div>
+  </div>
+  <div class="pw pw3" data-level="3">
+    <div class="k">⚠ PERSONALISED OFFER FOR YOU ⚠</div>
+    <h2>We noticed you have money.</h2>
+    <div class="lede">Our 400 partners tell us you recently bought a phone cover and two samosas. Based on your UPI activity*, you can comfortably afford <b>₹0</b>.</div>
+    <div class="cmp"><div>Samosa<b>₹20</b></div><div>Phone cover<b>₹199</b></div><div class="j">Journalism<b>₹0</b></div></div>
+    <a class="cta-green" href="/subscribe">YES, I CAN AFFORD ₹0</a>
+    <div class="foot"><button class="dismiss" type="button" data-pw="dismiss" style="color:#777">No, I don't have ₹0</button></div>
+    <div class="fine">*We do not have access to your UPI activity. Our partners might.</div>
+  </div>
+  <div class="pw pw4" data-level="4">
+    <h2>Your neighbour subscribed.</h2>
+    <div class="lede"><b>Sharma ji (B-204)</b> subscribed 3 minutes ago. His son also cleared JEE.</div>
+    <div class="avs">{neighbours.map(([i, c]) => <i style={`background:${c}`}>{i}</i>)}<small>+3,412 people in pincode 110092</small></div>
+    <div class="now">Mrs. Gupta (C-11) is viewing this offer right now</div>
+    <a class="cta-yellow" href="/subscribe">MATCH SHARMA JI »</a>
+    <button class="dismiss" type="button" data-pw="dismiss" style="font-size:12px">I am not Sharma ji</button>
+  </div>
+  <div class="pw pw5" data-level="5">
+    <h2>Fine.</h2>
+    <div class="foot"><button type="button" data-pw="ok">OK</button></div>
+  </div>
+</div>
+
+<!-- Sticky bottom ad -->
+<div class="sticky-ad" data-sticky-ad data-annoy="banner">
+  <a class="sticky-ad__creative" href="/sponsored/meerut-miracle-churna">MEGA FESTIVE SALE · Up to 90%* off on mobiles · SHOP NOW »</a>
+  <button class="sticky-ad__close" type="button" aria-label="Close ad">×</button>
+  <span class="sticky-ad__tag">Ad ▷</span>
+</div>

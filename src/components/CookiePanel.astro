@@ -1,0 +1,30 @@
+---
+interface Props { mode: 'modal' | 'page' }
+const { mode } = Astro.props;
+---
+<div class={`cp ${mode === 'page' ? 'cp--page' : ''}`}>
+  <div class="cp__head">
+    <span class="wm">ShittyNews</span>
+    <span class="ttl">Privacy Preference Center</span>
+    {mode === 'modal' && <button class="x" type="button" data-cp="close" title="Close (accepts all)" aria-label="Close (accepts all)">×</button>}
+  </div>
+  <div class="cp__tabs"><span>Purposes (11)</span><span class="on">Vendors (<span data-cp-total>400</span>)</span><span>Legitimate Interest (<span data-cp-total>400</span>)</span><span>Special Features</span></div>
+  <div class="cp__legal">When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as you expect it to. You can choose not to allow some types of cookies. However, blocking some types of cookies may impact your experience of the site, your credit score, and the services we are able to offer. Vendors relying on legitimate interest cannot be switched off here; please write to each vendor individually at the postal address in their privacy policy.</div>
+  <div class="cp__tools">
+    <input placeholder="Search vendors…" aria-label="Search vendors (does nothing)" />
+    <button type="button" style="font:11px Arial;padding:2px 8px">Filter ▾</button>
+    <span class="spacer"></span>
+    <span class="count"><span data-cp-count>400</span> of <span data-cp-total>400</span> vendors enabled</span>
+    <button class="accept" type="button" data-cp="accept">Accept All</button>
+  </div>
+  <div class="cp__cols"><span>#</span><span>Vendor</span><span>Legit. interest</span><span>Consent</span></div>
+  <div class="cp__list" data-cp-list><div style="padding:20px;color:#888">Loading 400 partners…</div></div>
+  <div class="cp__msg" data-cp-msg hidden></div>
+  <div class="cp__foot">
+    <button class="confirm" type="button" data-cp="confirm">Confirm my choices</button>
+    <button class="reject" type="button" disabled title="Coming soon">Reject all</button>
+    <span class="spacer"></span>
+    <span class="pw">Powered by ConsentWala</span>
+    <button class="accept" type="button" data-cp="accept">Accept All &amp; Continue</button>
+  </div>
+</div>

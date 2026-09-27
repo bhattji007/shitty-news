@@ -1,0 +1,92 @@
+---
+import Base from '../../layouts/Base.astro';
+import Thumb from '../../components/Thumb.astro';
+import Share from '../../components/Share.astro';
+import Video from '../../components/Video.astro';
+import Poll from '../../components/Poll.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import Chumbox from '../../components/Chumbox.astro';
+import Comments from '../../components/Comments.astro';
+import Sidebar from '../../components/Sidebar.astro';
+import { allArticles, topStories } from '../../lib/news/load.ts';
+import { istDateTime, catLabel } from '../../lib/format.ts';
+import products from '../../../data/products.json';
+import type { Article } from '../../lib/news/types.ts';
+
+export function getStaticPaths() {
+  return allArticles().filter((a) => !a.live).map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
+}
+const { article } = Astro.props as { article: Article };
+const top = topStories();
+const others = allArticles().filter((a) => a.id !== article.id).slice(0, 6);
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const sponsored = [
+  { t: 'Top 5 term plans for NRIs in 2026 — compare now', s: 'PolicyGyaan', id: products[3]!.id },
+  { t: 'Villas in Goa starting ₹1.9 Cr*. Only 3 left', s: 'Coastal Realty', id: products[2]!.id },
+  { t: 'Learn Data Science from IIT faculty*. Batch starts Monday', s: 'UpSkillNow', id: products[4]!.id },
+  { t: 'This new SUV has 7 airbags. Book a test drive', s: 'AutoDekho Partner', id: products[5]!.id },
+];
+---
+<Base title={`${article.title} — ShittyNews.in`} page="article" description={article.description ?? article.title} preloadImage={article.image}>
+  <div class="wrap">
+    <article class="main box article">
+      <div class="crumbs">News › {catLabel(article.category)} › {article.source} › <span class="cur" style="display:inline-block;max-width:40ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom">{article.title}</span></div>
+      <h1>{article.title}</h1>
+      <div class="byline">
+        <span><b>{article.source}</b> via SNN (ShittyNews Network) | Last updated: {istDateTime(article.publishedAt)}</span>
+        <span class="pill-30">◷ Read in 30 seconds</span>
+        <span class="gnews">+ Follow us on Google News</span>
+        <span class="spacer"></span>
+        <button class="fontbtn" type="button">A-</button><button class="fontbtn" type="button">A+</button>
+      </div>
+      <Share url={pageUrl} title={article.title} />
+      <Thumb article={article} ratio="169" eager />
+      <div class="credit">Representational image / File / Twitter / Reuters (probably)</div>
+      <div class="listen"><span>▶</span> Listen to this article · 00:14</div>
+
+      {article.description
+        ? <p class="story-p" data-first-paragraph>{article.description}</p>
+        : <p class="story-p empty" data-first-paragraph>This article has no content. Read in 30 seconds anyway.</p>}
+      <a class="readfull" href={article.url} rel="nofollow noopener" target="_blank">Read full story at {article.source} ›</a>
+
+      <div class="alsoread"><b>ALSO READ:</b> <a href={`/article/${article.slug}`}>{article.title}</a></div>
+      <Video caption={article.title} />
+
+      <div class="pager" data-annoy="paywall">
+        <span class="prev">« Prev</span>
+        <span class="num"><span data-pager-n>1</span>/12</span>
+        <span>·</span>
+        <button class="next" type="button" data-open-paywall data-pager-next>Next →</button>
+      </div>
+
+      <Poll />
+
+      <div class="continues">STORY CONTINUES BELOW ADVERTISEMENT</div>
+      <AdSlot size="250" />
+      <div class="notcontinue">(The story does not continue.)</div>
+
+      <div class="section-head" style="margin-top:10px"><span>RELATED</span></div>
+      <div class="related">
+        {[1, 2, 3, 4, 5, 6].map(() => (
+          <a href={`/article/${article.slug}`}><div class="th">{article.image && <img src={article.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />}</div><span>{article.title}</span></a>
+        ))}
+      </div>
+
+      <div class="section-head maylike-head" style="margin-top:18px"><span>YOU MAY LIKE</span></div>
+      <div class="maylike">
+        {others.map((a) => (
+          <a href={`/article/${a.slug}`}><div class="th">{a.image && <img src={a.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />}</div>{a.title}</a>
+        ))}
+      </div>
+
+      <div class="spon-head"><b>Sponsored</b><small>Ads by Adwala</small></div>
+      <div class="spon">
+        {sponsored.map((s) => <a href={`/sponsored/${s.id}`}><div class="th"></div><div class="b">{s.t}<small>{s.s} · <i>Learn More</i></small></div></a>)}
+      </div>
+
+      <Chumbox />
+      <Comments />
+    </article>
+    <Sidebar trending={top[0]} />
+  </div>
+</Base>

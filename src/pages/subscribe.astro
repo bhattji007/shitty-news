@@ -1,0 +1,59 @@
+---
+import Base from '../layouts/Base.astro';
+const matrix = [
+  ['Same articles','✔','✔','✔'],['Red font','✘','✔','✔ (bold)'],['Ads','All','All','All, in HD'],['Paywall pop-ups','5 per article','5 per article','5 per article (priority)'],
+  ['E-Paper',"Yesterday's","Yesterday's","Yesterday's, in colour"],['Crossword','✘','✔','✔ + answers next day'],['Newsletter','Daily','Daily','Hourly'],
+  ['Customer care','Email','Email (read)','Email (read, replied)'],['Cancel anytime','By phone*','By phone*','In person, Noida'],['Price','₹0','₹0','₹0 (+ GST)'],
+];
+---
+<Base title="Subscribe @ ₹0 — ShittyNews.in" page="subscribe">
+  <div class="plans-wrap">
+    <div class="plans-box">
+      <div class="ttl">
+        <h1>Choose your plan</h1>
+        <p>Join 4 crore* readers who support quality journalism. <small>*as per internal estimates</small></p>
+        <div class="festive">⏱ FESTIVE OFFER · Ends in 23:59:59 · Save 0% on all plans!</div>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <div class="nm">Shitty</div>
+          <div class="pr">₹0<small>/month</small></div>
+          <div class="ds">All the articles.</div>
+          <button type="button" data-open-paywall>Subscribe</button>
+        </div>
+        <div class="plan pop">
+          <span class="tag">★ MOST POPULAR ★</span>
+          <div class="nm">Shitty Premium</div>
+          <div class="pr"><s>₹0</s> ₹0<small>/month</small></div>
+          <div class="ds">Premium: same articles, red font</div>
+          <button type="button" data-open-paywall>Subscribe Now »</button>
+        </div>
+        <div class="plan">
+          <span class="tag best">BEST VALUE · SAVE 0%</span>
+          <div class="nm">Shitty Premium Plus</div>
+          <div class="pr">₹0<small>/year</small></div>
+          <div class="ds">Billed annually. ₹0 + 18% GST = ₹0.</div>
+          <button type="button" data-open-paywall>Subscribe</button>
+        </div>
+      </div>
+      <div class="sub-err">⚠ Payment of ₹0 failed. Your bank declined the transaction. Please try again or pay ₹0 via UPI.</div>
+      <label class="consent"><input type="checkbox" checked /> I agree to auto-renew at ₹0 forever, to the Terms &amp; Conditions, and to receive updates on WhatsApp, SMS, email, and phone calls between 9 am and 9 pm.</label>
+
+      <h2>Compare plans</h2>
+      <div class="matrix">
+        <table>
+          <thead><tr><th style="text-align:left">Feature</th><th>Basic</th><th class="p">Premium</th><th>Premium Plus</th></tr></thead>
+          <tbody>{matrix.map(([f, a, b, c]) => <tr><td>{f}</td><td>{a}</td><td class="p">{b}</td><td>{c}</td></tr>)}</tbody>
+        </table>
+      </div>
+      <div class="paybadges">Pay securely with: <span>UPI</span><span>Cards</span><span>NetBanking</span><span>Wallets</span> · No-cost EMI available on ₹0</div>
+
+      <h2>FAQs</h2>
+      <div class="faq">
+        <div><b>Why is every plan ₹0?</b><br />To make quality journalism accessible to all.</div>
+        <div><b>Then why is there a paywall?</b><br />To make quality journalism accessible to all.</div>
+        <div><b>How do I cancel?</b><br />Call 1800-XXX-XXXX on the second Tuesday of any month between 11:00 and 11:15 am, or visit our Noida office with a self-attested copy of your PAN card.</div>
+      </div>
+    </div>
+  </div>
+</Base>

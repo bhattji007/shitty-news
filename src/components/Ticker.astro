@@ -1,0 +1,21 @@
+---
+import { topStories } from '../lib/news/load.ts';
+const items = topStories().slice(0, 8);
+---
+<div class="ticker" data-annoy="ticker" aria-label="Breaking news">
+  <div class="ticker__label"><span class="dot"></span> BREAKING</div>
+  <div class="ticker__viewport">
+    <div class="ticker__track">
+      {[0, 1].map(() => (
+        <>
+          <span class="item"><span class="sq">■</span><span class="lbl">BREAKING:</span>Nothing happened</span>
+          {items.map((a) => (
+            <span class="item"><span class="sq">■</span><span class="lbl">BREAKING:</span><a href={`/article/${a.slug}`} style="color:#fff">{a.title}</a></span>
+          ))}
+          <span class="item"><span class="sq">■</span><span class="lbl">EXCLUSIVE:</span>ShittyNews was the first to report that nothing happened</span>
+          <span class="item"><span class="sq">■</span><span class="lbl">BREAKING:</span>More details awaited</span>
+        </>
+      ))}
+    </div>
+  </div>
+</div>

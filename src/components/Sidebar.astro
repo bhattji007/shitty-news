@@ -1,0 +1,33 @@
+---
+import type { Article } from '../lib/news/types.ts';
+import AdSlot from './AdSlot.astro';
+interface Props { trending: Article | undefined; live?: boolean }
+const { trending, live = false } = Astro.props;
+---
+<aside class="sidebar">
+  {live && (
+    <div class="box livebox" data-livebox data-annoy="ticker">
+      <div class="head"><span class="pulse"></span> LIVE</div>
+      <ul></ul>
+      <div class="empty">LIVE: nothing yet</div>
+    </div>
+  )}
+  {trending && (
+    <div class="box trending">
+      <div class="head">TRENDING NOW</div>
+      {[1, 2, 3, 4, 5].map((n) => (
+        <a href={`/article/${trending.slug}`}>
+          <span class="n">{n}</span>
+          <span class="t">{trending.title}</span>
+          <div class="th">{trending.image && <img src={trending.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" />}</div>
+        </a>
+      ))}
+    </div>
+  )}
+  <AdSlot size="300x250" />
+  <div class="box widget">
+    <div class="head">Petrol price today</div>
+    <div class="rows"><span>Delhi</span><span>Loading…</span><span>Mumbai</span><span>Loading…</span><span>Kolkata</span><span>Loading…</span><span>Meerut</span><span>Loading…</span></div>
+  </div>
+  <AdSlot size="300x600" />
+</aside>

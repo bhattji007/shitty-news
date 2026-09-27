@@ -1,0 +1,16 @@
+---
+interface Props { caption: string }
+const { caption } = Astro.props;
+---
+<div class="video" data-video data-annoy="video">
+  <span class="adn">Ad 1 of 47</span>
+  <span class="auto">AUTOPLAY: ON</span>
+  <div class="centre"><div class="spinner"></div><small>Your video will begin after the ad</small></div>
+  <span class="skip">Skip Ad in 5 ▸</span>
+  <div class="bar">
+    <span>❚❚</span><div class="prog"><i></i></div><span>0:00 / 0:30</span>
+    <input type="range" min="0" max="100" value="40" aria-label="Volume (only goes up)" />
+    <button type="button" data-mute title="Mute">🔇</button>
+  </div>
+</div>
+<div class="video-cap">Watch: {caption}</div>

@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import HomeContent from '../../components/HomeContent.astro';
+import { CATEGORIES } from '../../lib/news/types.ts';
+import { byCategory } from '../../lib/news/load.ts';
+import { catLabel } from '../../lib/format.ts';
+
+export function getStaticPaths() {
+  return CATEGORIES.map((cat) => ({ params: { cat } }));
+}
+const { cat } = Astro.params;
+const articles = byCategory(cat!);
+---
+<Base title={`${catLabel(cat!)} News — ShittyNews.in`} page="category" preloadImage={articles[0]?.image}>
+  <HomeContent articles={articles} category={catLabel(cat!)} />
+</Base>

@@ -1,0 +1,7 @@
+{
+  "hooks": ["Doctors hate this", "NRI shocked by", "Banks don't want you to know about", "You won't believe what this"],
+  "cities": ["Meerut", "Bareilly", "Kanpur", "Nagpur", "Indore", "Surat", "Rajkot", "Patna"],
+  "subjects": ["man", "aunty", "barfi", "CA", "uncle", "startup", "pandit", "MBA"],
+  "sources": ["HealthyPind", "Desi Bazaar Daily", "TechDeals India", "Policy Tips", "Education Hub", "Solar Savings", "Money Mantra", "FilmyBuzz"],
+  "captions": ["[man pointing at jar]", "[NRI gasping at sweet]", "[small fan, red arrow]", "[old couple, surprised]", "[blackboard, circled]", "[aunty on rooftop]", "[man with laptop, cash]", "[blurred actor]"]
+}

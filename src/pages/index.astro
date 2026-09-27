@@ -1,0 +1,9 @@
+---
+import Base from '../layouts/Base.astro';
+import HomeContent from '../components/HomeContent.astro';
+import { topStories } from '../lib/news/load.ts';
+const articles = topStories();
+---
+<Base title="ShittyNews.in — India's #1 News Website* · Breaking News, Latest News, Nothing Happened" page="home" preloadImage={articles[0]?.image}>
+  <HomeContent articles={articles} live />
+</Base>

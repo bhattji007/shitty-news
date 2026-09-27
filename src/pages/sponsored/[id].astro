@@ -1,0 +1,54 @@
+---
+import Base from '../../layouts/Base.astro';
+import products from '../../../data/products.json';
+
+export function getStaticPaths() {
+  return products.map((p) => ({ params: { id: p.id }, props: { p } }));
+}
+const { p } = Astro.props as { p: (typeof products)[number] };
+---
+<Base title={`${p.headline} — ${p.brand}`} page="sponsored" chrome={false}>
+  <div class="advert">
+    <div class="lbl">Advertorial</div>
+    <div class="hdr">
+      <span class="brand">{p.brand.split(' ').slice(0, -1).join(' ')} <i>{p.brand.split(' ').slice(-1)}</i></span>
+      <span class="spacer"></span>
+      <nav><span>Home</span><span>Health</span><span>Ayurveda</span><span>Contact</span></nav>
+    </div>
+    <div class="in">
+      <div class="sec">{p.section}</div>
+      <h1>{p.headline}</h1>
+      <div class="by">By Health Desk · Updated 2 minutes ago · <b>● 2,381 people reading now</b></div>
+      <div class="hero">{p.hero}</div>
+      <div class="heronote">{p.heroNote}</div>
+      {p.body.map((t) => <p>{t}</p>)}
+      <div class="product">
+        <div class="jar">[product, glowing]</div>
+        <div>
+          <div class="nm">{p.name}</div>
+          <div class="cl">{p.claims}</div>
+          <div class="pr"><s>{p.was}</s> <b>{p.now}</b> <span>90% OFF TODAY ONLY</span></div>
+          <div class="st">⚠ {p.stock}</div>
+          <div class="tm">Offer ends in <b>00:09:59</b></div>
+        </div>
+      </div>
+      <form class="order" onsubmit="return false">
+        <div class="t">Order now — Cash on Delivery available</div>
+        <input placeholder="Full name" autocomplete="off" />
+        <input placeholder="Mobile number (WhatsApp)" autocomplete="off" />
+        <input placeholder="Pincode" autocomplete="off" />
+        <button class="cta-green" type="button" data-open-paywall>BUY NOW @ {p.now} »</button>
+        <small>By ordering you agree to receive calls from our executive from 14 different numbers. Nothing you type here is sent anywhere.</small>
+      </form>
+      <div class="tst-h">What people are saying</div>
+      {p.testimonials.map((t) => (
+        <div class="tst">
+          <div class="av"></div>
+          <div><div class="nm"><b>{t.name}</b> <span>★★★★★</span></div><div class="tx">{t.text}</div><div class="lk">Like · Reply · {t.ago}</div></div>
+        </div>
+      ))}
+      <div class="disc">Disclaimer: This is an advertisement and not a news article. Results may vary from person to person. Results may also not occur. Individuals depicted are models. Testimonials are real feelings. This product is not intended to diagnose, treat, cure or prevent any disease, including doctors hating men. This product does not exist.</div>
+      <a class="back" href="/">← Back to ShittyNews</a>
+    </div>
+  </div>
+</Base>

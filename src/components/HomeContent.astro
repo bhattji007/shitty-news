@@ -1,0 +1,28 @@
+---
+import type { Article } from '../lib/news/types.ts';
+import LeadStory from './LeadStory.astro';
+import SectionHead from './SectionHead.astro';
+import NewsGrid from './NewsGrid.astro';
+import AdSlot from './AdSlot.astro';
+import Chumbox from './Chumbox.astro';
+import Sidebar from './Sidebar.astro';
+interface Props { articles: Article[]; category?: string; live?: boolean }
+const { articles, category, live = false } = Astro.props;
+const lead = articles[0];
+const grid = articles.slice(1, 13);
+const stories = articles.slice(13, 19).length ? articles.slice(13, 19) : articles.slice(1, 7);
+---
+<div class="wrap">
+  <div class="main">
+    {lead ? <LeadStory article={lead} /> : <div class="box" style="padding:20px;color:#666">No news yet. This is unusual. Read in 30 seconds anyway.</div>}
+    <SectionHead title={category ? category.toUpperCase() : 'TOP NEWS'} more={category ? `/category/${category}` : '/category/top'} />
+    <NewsGrid articles={grid} />
+    <div data-slot="ad-rows"><AdSlot size="row" /></div>
+    <SectionHead title="WEB STORIES" class="stories-head" />
+    <div class="stories">
+      {stories.map((a) => <a class="story" href={`/article/${a.slug}`}><span>{a.title}</span></a>)}
+    </div>
+    <Chumbox />
+  </div>
+  <Sidebar trending={lead} live={live} />
+</div>

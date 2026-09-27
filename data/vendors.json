@@ -1,0 +1,2002 @@
+[
+ {
+  "name": "Aarav Ad Exchange",
+  "purpose": "Match and combine data from other sources",
+  "retention": "365 days"
+ },
+ {
+  "name": "Aarav Cookie Consultants OPC",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Aarav Enterprises",
+  "purpose": "Develop and improve services",
+  "retention": "365 days"
+ },
+ {
+  "name": "Aarav Media Networks LLP",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Aarav Programmatic Ltd.",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "Abhinav Ad Exchange",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Abhinav Adtech Solutions Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Abhinav Audience Cloud Inc.",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Abhinav Data Sciences Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Abhinav Enterprises",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Session"
+ },
+ {
+  "name": "Abhinav Infotech Pvt. Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Abhinav Insights B.V.",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "AdKulfi Data Sciences Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "AdKulfi Media Networks LLP",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "AdKulfi SSP Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "730 days"
+ },
+ {
+  "name": "Adorbit Adtech Solutions Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "30 days"
+ },
+ {
+  "name": "Adorbit Audience Cloud Inc.",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Adorbit Cookie Consultants OPC",
+  "purpose": "Store and/or access information on a device",
+  "retention": "30 days"
+ },
+ {
+  "name": "Adorbit Data Sciences Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Adorbit Programmatic Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Adorbit Retargeting GmbH",
+  "purpose": "Store and/or access information on a device",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Adorbit SSP Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Agrawal Data Analytics Pvt Ltd",
+  "purpose": "Personalised advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Agrawal Infotech Pvt. Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "Agrawal Retargeting GmbH",
+  "purpose": "Create profiles for personalised content",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Agrawal Softech Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Ambika Ad Exchange",
+  "purpose": "Use precise geolocation data",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Ambika Adtech Solutions Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Ambika Audience Cloud Inc.",
+  "purpose": "Measure advertising performance",
+  "retention": "730 days"
+ },
+ {
+  "name": "Ambika Data Sciences Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "Ambika Infotech Pvt. Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Ambika Media Networks LLP",
+  "purpose": "Actively scan device characteristics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Anand Cookie Consultants OPC",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Anand Data Analytics Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Anand Infotech Pvt. Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "730 days"
+ },
+ {
+  "name": "Anand Softech Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "365 days"
+ },
+ {
+  "name": "Anand Telesoft India Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Apsara Ad Exchange",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Apsara Adtech Solutions Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Apsara Cookie Consultants OPC",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "Apsara Data Sciences Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Apsara Digital Marketing Pvt. Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Apsara Media Networks LLP",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "Apsara Programmatic Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Apsara Softech Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Apsara SSP Ltd.",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Arihant DSP Technologies",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Arihant Enterprises",
+  "purpose": "Use precise geolocation data",
+  "retention": "Session"
+ },
+ {
+  "name": "Arihant Infotech Pvt. Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Arihant Insights B.V.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Arihant Media Networks LLP",
+  "purpose": "Measure advertising performance",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Arihant Programmatic Ltd.",
+  "purpose": "Link different devices",
+  "retention": "Session"
+ },
+ {
+  "name": "Arihant Softech Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Arihant Telesoft India Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "9999 days"
+ },
+ {
+  "name": "AudienceSetu Adtech Solutions Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "AudienceSetu Audience Cloud Inc.",
+  "purpose": "Measure advertising performance",
+  "retention": "730 days"
+ },
+ {
+  "name": "AudienceSetu Cookie Consultants OPC",
+  "purpose": "Use precise geolocation data",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "AudienceSetu Data Analytics Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "AudienceSetu Data Sciences Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "365 days"
+ },
+ {
+  "name": "AudienceSetu Digital Marketing Pvt. Ltd.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "365 days"
+ },
+ {
+  "name": "AudienceSetu DSP Technologies",
+  "purpose": "Understand audiences through statistics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "AudienceSetu Infotech Pvt. Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "AudienceSetu SSP Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Balaji Adtech Solutions Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Balaji Audience Cloud Inc.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Balaji Cookie Consultants OPC",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "Balaji Digital Marketing Pvt. Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Balaji Enterprises",
+  "purpose": "Measure advertising performance",
+  "retention": "30 days"
+ },
+ {
+  "name": "Balaji Insights B.V.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "365 days"
+ },
+ {
+  "name": "Bhagwati Consultancy Services",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Bhagwati Cookie Consultants OPC",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Bhagwati Digital Marketing Pvt. Ltd.",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Bhagwati Softech Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bharat Cookie Consultants OPC",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Bharat Data Sciences Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Bharat Digital Marketing Pvt. Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Bharat Insights B.V.",
+  "purpose": "Develop and improve services",
+  "retention": "730 days"
+ },
+ {
+  "name": "Bharat Retargeting GmbH",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "BidNaka Consultancy Services",
+  "purpose": "Link different devices",
+  "retention": "3650 days"
+ },
+ {
+  "name": "BidNaka Data Analytics Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "BidNaka Data Sciences Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "730 days"
+ },
+ {
+  "name": "BidNaka Digital Marketing Pvt. Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "BidNaka DSP Technologies",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "BidNaka Enterprises",
+  "purpose": "Understand audiences through statistics",
+  "retention": "365 days"
+ },
+ {
+  "name": "BidNaka Insights B.V.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "BidNaka Programmatic Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Bidwala Adtech Solutions Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Bidwala Data Analytics Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Bidwala Data Sciences Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bidwala Digital Marketing Pvt. Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "Bidwala DSP Technologies",
+  "purpose": "Personalised advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Bidwala Enterprises",
+  "purpose": "Actively scan device characteristics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Bidwala Insights B.V.",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Bidwala Programmatic Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Bidwala Retargeting GmbH",
+  "purpose": "Measure advertising performance",
+  "retention": "730 days"
+ },
+ {
+  "name": "Bidwala Telesoft India Pvt Ltd",
+  "purpose": "Personalised advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "Bose Adtech Solutions Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bose Cookie Consultants OPC",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Bose Data Analytics Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "Bose Data Sciences Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bose Infotech Pvt. Ltd.",
+  "purpose": "Deliver and present advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bose Media Networks LLP",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "Bose Retargeting GmbH",
+  "purpose": "Use precise geolocation data",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bose Softech Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Bose SSP Ltd.",
+  "purpose": "Actively scan device characteristics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Chandan Data Sciences Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "Chandan DSP Technologies",
+  "purpose": "Link different devices",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Chandan Insights B.V.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "30 days"
+ },
+ {
+  "name": "Chirag Ad Exchange",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Chirag Adtech Solutions Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "Chirag Data Sciences Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Chirag Enterprises",
+  "purpose": "Store and/or access information on a device",
+  "retention": "30 days"
+ },
+ {
+  "name": "Chirag Media Networks LLP",
+  "purpose": "Understand audiences through statistics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Chirag Softech Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Chirag SSP Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Chirag Telesoft India Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "Session"
+ },
+ {
+  "name": "Chowdhury Ad Exchange",
+  "purpose": "Measure advertising performance",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Chowdhury Enterprises",
+  "purpose": "Use precise geolocation data",
+  "retention": "365 days"
+ },
+ {
+  "name": "Chowdhury Retargeting GmbH",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "ClickDhaba Ad Exchange",
+  "purpose": "Create profiles for personalised content",
+  "retention": "30 days"
+ },
+ {
+  "name": "ClickDhaba Cookie Consultants OPC",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "ClickDhaba Data Sciences Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "ClickDhaba DSP Technologies",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "ClickDhaba Enterprises",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "ClickDhaba Softech Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "ClickDhaba Telesoft India Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Cookiewala Ad Exchange",
+  "purpose": "Create profiles for personalised content",
+  "retention": "730 days"
+ },
+ {
+  "name": "Cookiewala Adtech Solutions Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Cookiewala Audience Cloud Inc.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "730 days"
+ },
+ {
+  "name": "Cookiewala Data Analytics Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "730 days"
+ },
+ {
+  "name": "Cookiewala Digital Marketing Pvt. Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "365 days"
+ },
+ {
+  "name": "Cookiewala Insights B.V.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Cookiewala Programmatic Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "Cookiewala Retargeting GmbH",
+  "purpose": "Link different devices",
+  "retention": "365 days"
+ },
+ {
+  "name": "Crestline Enterprises",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Crestline SSP Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Crestline Telesoft India Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "DataMandi Ad Exchange",
+  "purpose": "Use precise geolocation data",
+  "retention": "730 days"
+ },
+ {
+  "name": "DataMandi Adtech Solutions Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "DataMandi Consultancy Services",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "DataMandi Data Analytics Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "DataMandi Data Sciences Pvt Ltd",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "DataMandi Digital Marketing Pvt. Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Session"
+ },
+ {
+  "name": "DataMandi DSP Technologies",
+  "purpose": "Measure advertising performance",
+  "retention": "30 days"
+ },
+ {
+  "name": "DataMandi SSP Ltd.",
+  "purpose": "Deliver and present advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "DataMandi Telesoft India Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Deccan Ad Exchange",
+  "purpose": "Use precise geolocation data",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Deccan Consultancy Services",
+  "purpose": "Understand audiences through statistics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Deccan Data Analytics Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "30 days"
+ },
+ {
+  "name": "Deccan Telesoft India Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Deshpande Ad Exchange",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Deshpande Audience Cloud Inc.",
+  "purpose": "Deliver and present advertising",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Deshpande Data Sciences Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Deshpande DSP Technologies",
+  "purpose": "Create profiles for personalised content",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Deshpande Infotech Pvt. Ltd.",
+  "purpose": "Link different devices",
+  "retention": "Session"
+ },
+ {
+  "name": "Deshpande Programmatic Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Deshpande Softech Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Dhanlaxmi Ad Exchange",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Dhanlaxmi Data Analytics Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "365 days"
+ },
+ {
+  "name": "Dhanlaxmi Data Sciences Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Dhanlaxmi Digital Marketing Pvt. Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Dhanlaxmi Retargeting GmbH",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Durga Ad Exchange",
+  "purpose": "Actively scan device characteristics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Durga Adtech Solutions Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "365 days"
+ },
+ {
+  "name": "Durga Data Analytics Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "Durga Data Sciences Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Durga Programmatic Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Durga Softech Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Ekta Audience Cloud Inc.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Ekta Consultancy Services",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Ekta Cookie Consultants OPC",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Ekta Digital Marketing Pvt. Ltd.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Ekta DSP Technologies",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Ekta Insights B.V.",
+  "purpose": "Develop and improve services",
+  "retention": "730 days"
+ },
+ {
+  "name": "Ekta Media Networks LLP",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Ekta Softech Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Ganesh Digital Marketing Pvt. Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Ganesh Infotech Pvt. Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "Ganesh Media Networks LLP",
+  "purpose": "Link different devices",
+  "retention": "365 days"
+ },
+ {
+  "name": "Ganesh Programmatic Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Session"
+ },
+ {
+  "name": "Ganesh Softech Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Ganesh Telesoft India Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "Gupta Ad Exchange",
+  "purpose": "Personalised advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "Gupta Audience Cloud Inc.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Gupta Consultancy Services",
+  "purpose": "Create profiles for personalised content",
+  "retention": "730 days"
+ },
+ {
+  "name": "Gupta Cookie Consultants OPC",
+  "purpose": "Understand audiences through statistics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Gupta Data Sciences Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Gupta Insights B.V.",
+  "purpose": "Deliver and present advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Hanuman Adtech Solutions Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Hanuman Data Analytics Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Hanuman Media Networks LLP",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Indus SSP Ltd.",
+  "purpose": "Use precise geolocation data",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Iyer Adtech Solutions Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Iyer Data Sciences Pvt Ltd",
+  "purpose": "Personalised advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Iyer Insights B.V.",
+  "purpose": "Measure advertising performance",
+  "retention": "730 days"
+ },
+ {
+  "name": "Iyer Media Networks LLP",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Jai Mata Di Ad Exchange",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Jai Mata Di Consultancy Services",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Jai Mata Di Data Analytics Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Jai Mata Di Digital Marketing Pvt. Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Jai Mata Di Enterprises",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Jai Mata Di Programmatic Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Jai Mata Di SSP Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "Joshi Ad Exchange",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Joshi Adtech Solutions Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Joshi Infotech Pvt. Ltd.",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "Joshi Media Networks LLP",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Joshi Softech Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Joshi SSP Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "Joshi Telesoft India Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Jugaad SSP Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Kaveri Consultancy Services",
+  "purpose": "Understand audiences through statistics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Kaveri Data Sciences Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Kaveri Insights B.V.",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Kaveri Media Networks LLP",
+  "purpose": "Use precise geolocation data",
+  "retention": "30 days"
+ },
+ {
+  "name": "Krishna Ad Exchange",
+  "purpose": "Understand audiences through statistics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Krishna Audience Cloud Inc.",
+  "purpose": "Deliver and present advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Krishna Digital Marketing Pvt. Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Krishna Infotech Pvt. Ltd.",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Krishna Insights B.V.",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Krishna Retargeting GmbH",
+  "purpose": "Store and/or access information on a device",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Krishna SSP Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Kulkarni Adtech Solutions Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Kulkarni Data Sciences Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Kulkarni Digital Marketing Pvt. Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "730 days"
+ },
+ {
+  "name": "Kulkarni DSP Technologies",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Kulkarni Infotech Pvt. Ltd.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Kulkarni Telesoft India Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Lakshmi Ad Exchange",
+  "purpose": "Create profiles for personalised content",
+  "retention": "30 days"
+ },
+ {
+  "name": "Lakshmi Adtech Solutions Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "Lakshmi Consultancy Services",
+  "purpose": "Personalised advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Lakshmi Cookie Consultants OPC",
+  "purpose": "Link different devices",
+  "retention": "365 days"
+ },
+ {
+  "name": "Lakshmi Data Analytics Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Lakshmi Data Sciences Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "730 days"
+ },
+ {
+  "name": "Lakshmi Enterprises",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Lakshmi SSP Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "30 days"
+ },
+ {
+  "name": "Lakshmi Telesoft India Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Mahalaxmi Cookie Consultants OPC",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Mahalaxmi Media Networks LLP",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Mahalaxmi Programmatic Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Mahalaxmi Retargeting GmbH",
+  "purpose": "Develop and improve services",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Mahalaxmi Telesoft India Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Maruti Nandan Consultancy Services",
+  "purpose": "Actively scan device characteristics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Maruti Nandan Telesoft India Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Mehta Audience Cloud Inc.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "365 days"
+ },
+ {
+  "name": "Mehta Consultancy Services",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Mehta Enterprises",
+  "purpose": "Match and combine data from other sources",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Mehta Programmatic Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Mehta Telesoft India Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Nair Ad Exchange",
+  "purpose": "Deliver and present advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Nair Audience Cloud Inc.",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Nair Data Sciences Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Nair Digital Marketing Pvt. Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Nair Softech Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Nair SSP Ltd.",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Nirmal Consultancy Services",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Nirmal Cookie Consultants OPC",
+  "purpose": "Develop and improve services",
+  "retention": "730 days"
+ },
+ {
+  "name": "Nirmal Data Sciences Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "365 days"
+ },
+ {
+  "name": "Nirmal DSP Technologies",
+  "purpose": "Link different devices",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Nirmal SSP Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "365 days"
+ },
+ {
+  "name": "Nirmal Telesoft India Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Om Sai Audience Cloud Inc.",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Om Sai Cookie Consultants OPC",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Om Sai Data Sciences Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Om Sai Insights B.V.",
+  "purpose": "Use precise geolocation data",
+  "retention": "365 days"
+ },
+ {
+  "name": "Om Sai Media Networks LLP",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Om Sai SSP Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Om Sai Telesoft India Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Omnibid Consultancy Services",
+  "purpose": "Personalised advertising",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Omnibid Data Analytics Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Omnibid Data Sciences Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Omnibid Insights B.V.",
+  "purpose": "Personalised advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Omnibid Retargeting GmbH",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "Omnibid SSP Ltd.",
+  "purpose": "Link different devices",
+  "retention": "Session"
+ },
+ {
+  "name": "Pinnacle Consultancy Services",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Pinnacle Data Sciences Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Pinnacle Digital Marketing Pvt. Ltd.",
+  "purpose": "Link different devices",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Pinnacle Programmatic Ltd.",
+  "purpose": "Use precise geolocation data",
+  "retention": "30 days"
+ },
+ {
+  "name": "Pinnacle Telesoft India Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Pixelnagar Ad Exchange",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Pixelnagar Adtech Solutions Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Pixelnagar Data Analytics Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Pixelnagar Media Networks LLP",
+  "purpose": "Use precise geolocation data",
+  "retention": "Session"
+ },
+ {
+  "name": "Pixelnagar SSP Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "365 days"
+ },
+ {
+  "name": "Pragati Ad Exchange",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Session"
+ },
+ {
+  "name": "Pragati Data Sciences Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Pragati Digital Marketing Pvt. Ltd.",
+  "purpose": "Measure advertising performance",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Pragati Enterprises",
+  "purpose": "Understand audiences through statistics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Pragati Infotech Pvt. Ltd.",
+  "purpose": "Deliver and present advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Pragati Softech Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Pragati SSP Ltd.",
+  "purpose": "Actively scan device characteristics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Quantix Ad Exchange",
+  "purpose": "Use precise geolocation data",
+  "retention": "365 days"
+ },
+ {
+  "name": "Quantix Cookie Consultants OPC",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Quantix Infotech Pvt. Ltd.",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Quantix Insights B.V.",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Quantix Retargeting GmbH",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "Ramesh",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Rathi Adtech Solutions Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Rathi Data Analytics Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Rathi Infotech Pvt. Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Rathi Retargeting GmbH",
+  "purpose": "Link different devices",
+  "retention": "365 days"
+ },
+ {
+  "name": "Rathi Telesoft India Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "ReachKart Adtech Solutions Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "9999 days"
+ },
+ {
+  "name": "ReachKart Consultancy Services",
+  "purpose": "Store and/or access information on a device",
+  "retention": "730 days"
+ },
+ {
+  "name": "ReachKart Data Analytics Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Session"
+ },
+ {
+  "name": "ReachKart Data Sciences Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "9999 days"
+ },
+ {
+  "name": "ReachKart Digital Marketing Pvt. Ltd.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "3650 days"
+ },
+ {
+  "name": "ReachKart Enterprises",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "ReachKart Programmatic Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "30 days"
+ },
+ {
+  "name": "Reddy Adtech Solutions Pvt Ltd",
+  "purpose": "Measure advertising performance",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Reddy Audience Cloud Inc.",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Reddy Data Sciences Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "730 days"
+ },
+ {
+  "name": "Reddy DSP Technologies",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Reddy Enterprises",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Reddy Insights B.V.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "730 days"
+ },
+ {
+  "name": "Retargetly Ad Exchange",
+  "purpose": "Match and combine data from other sources",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Retargetly Adtech Solutions Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Retargetly Consultancy Services",
+  "purpose": "Understand audiences through statistics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Retargetly Data Sciences Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Retargetly Insights B.V.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Sai Kripa Consultancy Services",
+  "purpose": "Deliver and present advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "Sai Kripa Cookie Consultants OPC",
+  "purpose": "Link different devices",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Sai Kripa Data Sciences Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Sai Kripa Digital Marketing Pvt. Ltd.",
+  "purpose": "Personalised advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Sai Kripa DSP Technologies",
+  "purpose": "Personalised advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Sai Kripa Enterprises",
+  "purpose": "Personalised advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "Sai Kripa Softech Pvt Ltd",
+  "purpose": "Personalised advertising",
+  "retention": "Session"
+ },
+ {
+  "name": "Sharma Ad Exchange",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Session"
+ },
+ {
+  "name": "Sharma Data Analytics Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Sharma Infotech Pvt. Ltd.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Sharma Programmatic Ltd.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Shree Data Sciences Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "365 days"
+ },
+ {
+  "name": "Shree Digital Marketing Pvt. Ltd.",
+  "purpose": "Develop and improve services",
+  "retention": "365 days"
+ },
+ {
+  "name": "Shree Infotech Pvt. Ltd.",
+  "purpose": "Use precise geolocation data",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Shree Media Networks LLP",
+  "purpose": "Personalised advertising",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Shree Telesoft India Pvt Ltd",
+  "purpose": "Personalised advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Shubh Labh Adtech Solutions Pvt Ltd",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Session"
+ },
+ {
+  "name": "Shubh Labh Consultancy Services",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Shubh Labh Cookie Consultants OPC",
+  "purpose": "Match and combine data from other sources",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Shubh Labh Data Analytics Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Shubh Labh Data Sciences Pvt Ltd",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Shubh Labh Insights B.V.",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Shubh Labh Media Networks LLP",
+  "purpose": "Personalised advertising",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Shubh Labh Softech Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Shubh Labh Telesoft India Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Siddhi Vinayak Adtech Solutions Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "730 days"
+ },
+ {
+  "name": "Siddhi Vinayak Consultancy Services",
+  "purpose": "Use precise geolocation data",
+  "retention": "365 days"
+ },
+ {
+  "name": "Siddhi Vinayak DSP Technologies",
+  "purpose": "Link different devices",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Siddhi Vinayak Enterprises",
+  "purpose": "Match and combine data from other sources",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Swastik Cookie Consultants OPC",
+  "purpose": "Develop and improve services",
+  "retention": "Session"
+ },
+ {
+  "name": "Swastik Data Sciences Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "30 days"
+ },
+ {
+  "name": "Swastik Insights B.V.",
+  "purpose": "Store and/or access information on a device",
+  "retention": "365 days"
+ },
+ {
+  "name": "Swastik Programmatic Ltd.",
+  "purpose": "Create profiles for personalised content",
+  "retention": "730 days"
+ },
+ {
+  "name": "Swastik Softech Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Swastik SSP Ltd.",
+  "purpose": "Use precise geolocation data",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "TrackBazaar Ad Exchange",
+  "purpose": "Personalised advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "TrackBazaar Cookie Consultants OPC",
+  "purpose": "Actively scan device characteristics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "TrackBazaar Digital Marketing Pvt. Ltd.",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "TrackBazaar Enterprises",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "TrackBazaar Media Networks LLP",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Trimurti Ad Exchange",
+  "purpose": "Actively scan device characteristics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Trimurti Consultancy Services",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Trimurti Cookie Consultants OPC",
+  "purpose": "Develop and improve services",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Trimurti Insights B.V.",
+  "purpose": "Develop and improve services",
+  "retention": "365 days"
+ },
+ {
+  "name": "Trimurti Media Networks LLP",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Trimurti Retargeting GmbH",
+  "purpose": "Develop and improve services",
+  "retention": "30 days"
+ },
+ {
+  "name": "Trivedi Audience Cloud Inc.",
+  "purpose": "Link different devices",
+  "retention": "30 days"
+ },
+ {
+  "name": "Trivedi Cookie Consultants OPC",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Session"
+ },
+ {
+  "name": "Trivedi DSP Technologies",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Trivedi Enterprises",
+  "purpose": "Develop and improve services",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Trivedi Telesoft India Pvt Ltd",
+  "purpose": "Deliver and present advertising",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Udaan Audience Cloud Inc.",
+  "purpose": "Measure advertising performance",
+  "retention": "365 days"
+ },
+ {
+  "name": "Udaan Digital Marketing Pvt. Ltd.",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Udaan DSP Technologies",
+  "purpose": "Deliver and present advertising",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Udaan Media Networks LLP",
+  "purpose": "Measure advertising performance",
+  "retention": "30 days"
+ },
+ {
+  "name": "Vardhman Data Sciences Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Vardhman DSP Technologies",
+  "purpose": "Understand audiences through statistics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Vardhman Enterprises",
+  "purpose": "Deliver and present advertising",
+  "retention": "30 days"
+ },
+ {
+  "name": "Vardhman Insights B.V.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Vardhman Media Networks LLP",
+  "purpose": "Create profiles for personalised content",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Vardhman Retargeting GmbH",
+  "purpose": "Measure advertising performance",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Vardhman Telesoft India Pvt Ltd",
+  "purpose": "Create profiles for personalised content",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Verma Ad Exchange",
+  "purpose": "Understand audiences through statistics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Verma Data Analytics Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Verma Infotech Pvt. Ltd.",
+  "purpose": "Deliver and present advertising",
+  "retention": "365 days"
+ },
+ {
+  "name": "Verma Programmatic Ltd.",
+  "purpose": "Understand audiences through statistics",
+  "retention": "30 days"
+ },
+ {
+  "name": "Vishwas Adtech Solutions Pvt Ltd",
+  "purpose": "Understand audiences through statistics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Vishwas Insights B.V.",
+  "purpose": "Match and combine data from other sources",
+  "retention": "30 days"
+ },
+ {
+  "name": "Vishwas Media Networks LLP",
+  "purpose": "Understand audiences through statistics",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Vishwas Telesoft India Pvt Ltd",
+  "purpose": "Store and/or access information on a device",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Yash Cookie Consultants OPC",
+  "purpose": "Actively scan device characteristics",
+  "retention": "9999 days"
+ },
+ {
+  "name": "Yash Data Sciences Pvt Ltd",
+  "purpose": "Match and combine data from other sources",
+  "retention": "730 days"
+ },
+ {
+  "name": "Yash Programmatic Ltd.",
+  "purpose": "Link different devices",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Yash Retargeting GmbH",
+  "purpose": "Actively scan device characteristics",
+  "retention": "730 days"
+ },
+ {
+  "name": "Zenith Ad Exchange",
+  "purpose": "Actively scan device characteristics",
+  "retention": "Until further notice"
+ },
+ {
+  "name": "Zenith Consultancy Services",
+  "purpose": "Deliver and present advertising",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Zenith Data Sciences Pvt Ltd",
+  "purpose": "Use precise geolocation data",
+  "retention": "3650 days"
+ },
+ {
+  "name": "Zenith Programmatic Ltd.",
+  "purpose": "Deliver and present advertising",
+  "retention": "730 days"
+ },
+ {
+  "name": "Zenith Retargeting GmbH",
+  "purpose": "Actively scan device characteristics",
+  "retention": "365 days"
+ },
+ {
+  "name": "Zenith Telesoft India Pvt Ltd",
+  "purpose": "Link different devices",
+  "retention": "9999 days"
+ }
+]

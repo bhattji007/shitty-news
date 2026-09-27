@@ -1,0 +1,48 @@
+---
+import { istToday } from '../lib/format.ts';
+interface Props { lite?: boolean }
+const { lite = false } = Astro.props;
+
+// Nav: 23 items like the real thing. Real categories get real pages; the rest go somewhere plausible.
+const nav: [string, string][] = [
+  ['City', '/category/top'], ['India', '/category/top'], ['Politics', '/category/politics'], ['World', '/category/top'],
+  ['Business', '/category/business'], ['Tech', '/category/technology'], ['Cricket', '/category/sports'], ['Sports', '/category/sports'],
+  ['Entertainment', '/category/entertainment'], ['TV', '/category/entertainment'], ['Web Series', '/category/entertainment'],
+  ['Science', '/category/science'], ['Lifestyle', '/category/entertainment'], ['Astrology', '/category/science'],
+  ['Photos', '/category/top'], ['Videos', '/category/top'], ['Viral', '/category/top'], ['Auto', '/category/technology'],
+  ['NRI', '/category/top'], ['Elections', '/category/politics'], ['Rashifal', '/category/science'], ['Gold Rate', '/category/business'],
+  ['More ▾', '/preferences'],
+];
+---
+<header data-annoy="masthead">
+  <div class="utility">
+    <span data-masthead-date>{istToday()}</span>
+    {lite && <span class="lite-label">Lite version</span>}
+    <span>India's #1 News Website<sup>*</sup></span>
+    <span class="footnote">*Among websites named ShittyNews. Survey of 1 (one) person, who works here.</span>
+    <a href="/e-paper">E-Paper</a><a href="/">Edition: IN ▾</a><a href="/">हिन्दी</a><a href="/">ಕನ್ನಡ</a><a href="/">বাংলা</a>
+    <span class="spacer"></span>
+    <a href="/subscribe">Login</a> | <a href="/subscribe">Subscribe</a> | <a href="/e-paper">E-Paper</a>
+    <a class="sub" href="/subscribe">SUBSCRIBE @ ₹0</a>
+  </div>
+  <div class="leaderboard"><div class="ad ad--728"><small>ADVERTISEMENT</small><b>728 × 90 · Big Festive Dhamaka Sale</b></div></div>
+  <div class="logo-row">
+    <span class="burger" aria-hidden="true">☰</span>
+    <a class="logo" href="/">
+      <div class="wordmark"><span class="s">Shitty</span>News<span class="tld">.in</span></div>
+      <div class="tagline">Sabse Pehle. Sabse Shitty. &nbsp;·&nbsp; <small>Est. 1998 · Hurting journalism since dial-up</small></div>
+    </a>
+    <div class="weather">
+      <div><b>Meerut</b> <span data-masthead-temp>--°C</span> Haze</div>
+      <div>AQI <b class="aqi">312</b> · Poor</div>
+    </div>
+  </div>
+  <nav class="nav" aria-label="Sections">
+    <a class="home" href="/" aria-label="Home">⌂</a>
+    {nav.map(([label, href]) => <a href={href}>{label}</a>)}
+  </nav>
+  <div class="trending-strip">
+    <b>TRENDING:</b>
+    <a href="/category/top">#PropertyTax</a><a href="/category/business">#RepoRate</a><a href="/category/science">#IMD</a><a href="/category/business">#Sensex</a><a href="/category/top">#PropertyTaxDeadline</a><a href="/category/top">#PropertyTax2026</a><a href="/">#ShittyNewsExclusive</a><a href="/category/science">#Rashifal</a><a href="/category/business">#GoldRateToday</a><a href="/category/top">#PropertyTax</a>
+  </div>
+</header>
