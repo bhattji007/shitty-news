@@ -1,0 +1,12 @@
+# Cloudflare Pages project. `wrangler pages deploy dist` picks this up.
+# /live and /health are Pages Functions in ./functions (same origin as the site — no extra DNS).
+name = "shittynews"
+compatibility_date = "2026-09-01"
+pages_build_output_dir = "dist"
+
+# KV binding for the live layer. Only needed when STREAM_ENABLED=true.
+# Create the namespace once:  npx wrangler kv namespace create LIVE
+# then paste the id below (or bind it in the Pages dashboard → Settings → Bindings).
+# [[kv_namespaces]]
+# binding = "LIVE"
+# id = "<CF_KV_NAMESPACE_ID>"

@@ -1,0 +1,61 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 * * * *'   # hourly: 7 NewsData requests × 24 = 168 credits/day (free tier ≈ 200)
+  workflow_dispatch:
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # Last-good response per category (data/cache/<category>.json). A 429/401/timeout
+      # on one category reuses its cached file instead of dropping the section.
+      - name: Restore news cache
+        uses: actions/cache/restore@v4
+        with:
+          path: data/cache
+          key: news-cache-${{ github.run_id }}
+          restore-keys: |
+            news-cache-
+
+      - name: Fetch news
+        run: npm run fetch-news
+        env:
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+
+      - name: Build
+        run: npm run build
+        env:
+          STREAM_ENABLED: ${{ vars.STREAM_ENABLED || 'false' }}
+
+      - name: Save news cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: data/cache
+          key: news-cache-${{ github.run_id }}
+
+      - name: Deploy to Cloudflare Pages
+        run: npx wrangler pages deploy dist --project-name shittynews --commit-dirty=true
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
