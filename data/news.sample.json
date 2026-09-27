@@ -1,97 +1,7 @@
 {
-  "fetchedAt": "2026-09-27T15:41:18.641Z",
+  "fetchedAt": "2026-09-27T16:01:16.892Z",
   "mode": "sample",
   "categories": {
-    "top": [
-      {
-        "id": "2e10654c76d1",
-        "slug": "poshan-ma-programme-held-in-malappuram",
-        "title": "Poshan Ma programme held in Malappuram",
-        "description": "The programme focused on promoting healthy eating habits and creating awareness about malnutrition among children, mothers and families.",
-        "url": "https://www.thehindu.com/news/national/kerala/poshan-ma-programme-held-in-malappuram/article71516657.ece",
-        "image": "https://th-i.thgim.com/public/news/national/kerala/7djkky/article71516645.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-09-27%20at%204.23.20%20PM.jpeg",
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:37:03.000Z",
-        "category": "top"
-      },
-      {
-        "id": "1e7709421bcf",
-        "slug": "over-200-childhood-cancer-survivors-gather-in-hyderabad-for-awareness-programme",
-        "title": "Over 200 childhood cancer survivors gather in Hyderabad for awareness programme",
-        "description": null,
-        "url": "https://www.thehindu.com/news/cities/Hyderabad/over-200-childhood-cancer-survivors-gather-in-hyderabad-for-awareness-programme/article71516607.ece",
-        "image": "https://th-i.thgim.com/public/incoming/3dpnmx/article71516612.ece/alternates/LANDSCAPE_1200/Photo%201f.jpeg",
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:36:07.000Z",
-        "category": "top"
-      },
-      {
-        "id": "fefb896ecd3f",
-        "slug": "beyond-borders-and-difficult-roads-government-hospitals-in-telangana-s-bhadradri",
-        "title": "Beyond borders and difficult roads, government hospitals in Telangana’s Bhadradri Kothagudem keep specialised care going",
-        "description": null,
-        "url": "https://www.thehindu.com/news/national/telangana/beyond-borders-and-difficult-roads-government-hospitals-in-telanganas-bhadradri-kothagudem-keep-specialised-care-going/article71515963.ece",
-        "image": "https://th-i.thgim.com/public/incoming/7ycq95/article71515965.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-09-22%20at%208.26.03%20PM.jpeg",
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:34:04.000Z",
-        "category": "top"
-      },
-      {
-        "id": "82c41b0fe16f",
-        "slug": "21-year-old-held-for-circulating-counterfeit-500-notes-among-vendors",
-        "title": "21-year-old held for circulating counterfeit ₹500 notes among vendors",
-        "description": null,
-        "url": "https://www.thehindu.com/news/national/telangana/21-year-old-held-for-circulating-counterfeit-500-notes-among-vendors/article71516656.ece",
-        "image": null,
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:28:13.000Z",
-        "category": "top"
-      },
-      {
-        "id": "4bc4cd5796ec",
-        "slug": "four-practice-nets-inaugurated-at-aca-vdca-stadium-in-visakhapatnam",
-        "title": "Four practice nets inaugurated at ACA–VDCA Stadium in Visakhapatnam",
-        "description": null,
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/four-practice-nets-inaugurated-at-acavdca-stadium-in-visakhapatnam/article71516650.ece",
-        "image": null,
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:24:47.000Z",
-        "category": "top"
-      },
-      {
-        "id": "7fdb7179df2f",
-        "slug": "banks-open-on-sunday-see-brisk-turnout-ahead-of-3-day-strike",
-        "title": "Banks open on Sunday see brisk turnout ahead of 3-day strike",
-        "description": null,
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/ahead-of-three-day-strike-banks-open-on-sunday-see-brisk-turnout/article71516522.ece",
-        "image": "https://th-i.thgim.com/public/incoming/24xh02/article71516787.ece/alternates/LANDSCAPE_1200/9604_27_9_2026_18_4_38_1_VSP28_BANK1.JPG",
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:23:44.000Z",
-        "category": "top"
-      },
-      {
-        "id": "63337872597b",
-        "slug": "dmk-mp-raises-concerns-over-amendments-to-fcra",
-        "title": "DMK MP raises concerns over amendments to FCRA",
-        "description": "Participating in a meeting, P. Wilson claims the proposed changes could have significant implications for voluntary organisations and the communities they serve",
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/dmk-mp-raises-concerns-over-amendments-to-fcra/article71516557.ece",
-        "image": "https://th-i.thgim.com/public/incoming/5kng3v/article71516764.ece/alternates/LANDSCAPE_1200/9604_27_9_2026_20_14_36_1_IMG_20260927_WA0018.JPG",
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:21:08.000Z",
-        "category": "top"
-      },
-      {
-        "id": "ee5286d52fcc",
-        "slug": "river-sabri-recedes-godavari-rises-authorities-on-alert",
-        "title": "River Sabri recedes, Godavari rises, authorities on alert",
-        "description": "Authorities have alerted residents of at least 160 villages about the rising water levels in the Godavari river; 134 women requiring antenatal care shifted to nearby hospitals and 105 relief centres opened",
-        "url": "https://www.thehindu.com/news/national/andhra-pradesh/river-sabri-recedes-godavari-rises-authorities-on-alert/article71516576.ece",
-        "image": "https://th-i.thgim.com/public/incoming/o4egvf/article71516772.ece/alternates/LANDSCAPE_1200/10237_25_9_2026_19_27_22_1_WHATSAPPIMAGE2026_09_24AT73253PM.JPEG",
-        "source": "The Hindu",
-        "publishedAt": "2026-09-27T15:19:32.000Z",
-        "category": "top"
-      }
-    ],
     "science": [
       {
         "id": "61e339f016a7",
@@ -99,7 +9,7 @@
         "title": "How the science Nikolai Vavilov built changed how we save crops",
         "description": "One of Vavilov’s major contributions was a paper he published in 1926: even today, a century later, it remains the foundation of the study and use of crops and livestock",
         "url": "https://www.thehindu.com/sci-tech/energy-and-environment/how-the-science-nikolai-vavilov-built-changed-how-we-save-crops/article71512603.ece",
-        "image": "https://th-i.thgim.com/public/sci-tech/science/vchv4k/article71512573.ece/alternates/LANDSCAPE_1200/Visita_de_Nikola%CC%81i_Iva%CC%81novich_Vavi%CC%81lov.JPG",
+        "image": "https://th-i.thgim.com/public/sci-tech/science/vchv4k/article71512573.ece/alternates/LANDSCAPE_615/Visita_de_Nikola%CC%81i_Iva%CC%81novich_Vavi%CC%81lov.JPG",
         "source": "The Hindu",
         "publishedAt": "2026-09-27T11:20:15.000Z",
         "category": "science"
@@ -110,82 +20,100 @@
         "title": "Science quiz | Vivid displays in the wild",
         "description": "Test your knowledge with The Hindu’s live, vivid in-field visuals and engaging puzzle embeds.",
         "url": "https://www.thehindu.com/sci-tech/science/science-quiz-vivid-displays-in-the-wild/article71512191.ece",
-        "image": "https://th-i.thgim.com/public/news/national/nyboxm/article71512181.ece/alternates/LANDSCAPE_1200/Superb_lyrbird_in_scrub.jpg",
+        "image": "https://th-i.thgim.com/public/news/national/nyboxm/article71512181.ece/alternates/LANDSCAPE_615/Superb_lyrbird_in_scrub.jpg",
         "source": "The Hindu",
         "publishedAt": "2026-09-26T08:23:17.000Z",
         "category": "science"
       }
     ],
-    "technology": [
+    "top": [
       {
-        "id": "68edd90b76a5",
-        "slug": "us-govt-sites-as-targets-evading-captchas-what-openai-s-runaway-agents-got-up-to",
-        "title": "US govt sites as targets, evading CAPTCHAs: What OpenAI’s runaway agents got up to",
+        "id": "53bae8ecd4ee",
+        "slug": "hospitality-sector-seeks-lands-for-budget-friendly-hotels-to-boost-tourism",
+        "title": "Hospitality sector seeks lands for budget-friendly hotels to boost tourism",
         "description": null,
-        "url": "https://indianexpress.com/article/technology/artificial-intelligence/us-govt-sites-targeted-what-openai-agents-did-10896300/",
-        "image": "https://images.indianexpress.com/2026/09/Tech-featured-image2-1.jpg",
-        "source": "The Indian Express",
-        "publishedAt": "2026-09-27T12:05:19.000Z",
-        "category": "technology"
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/hospitality-sector-seeks-lands-for-budget-friendly-hotels-to-boost-tourism/article71515205.ece",
+        "image": null,
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:57:31.000Z",
+        "category": "top"
       },
       {
-        "id": "97b2ab0b6671",
-        "slug": "jbl-live-beam-4-review-when-your-earphones-learn-how-you-hear",
-        "title": "JBL Live Beam 4 review: When your earphones learn how you hear",
-        "description": null,
-        "url": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-beam-4-review-price-india-10895870/",
-        "image": "https://images.indianexpress.com/2026/09/Tech-featured-image1-1.jpg",
-        "source": "The Indian Express",
-        "publishedAt": "2026-09-27T06:38:53.000Z",
-        "category": "technology"
-      }
-    ],
-    "politics": [
-      {
-        "id": "a6d1044ba5b2",
-        "slug": "another-reversal-by-vijay-government-revokes-rti-exemption-for-law-and-order-dep",
-        "title": "Another reversal by Vijay government: Revokes RTI exemption for Law and Order department",
-        "description": null,
-        "url": "https://indianexpress.com/article/political-pulse/tamil-nadu-vijay-revokes-rti-act-exemption-law-and-order-department-10896167/",
-        "image": "https://images.indianexpress.com/2026/09/Vijay_090365.jpg",
-        "source": "The Indian Express",
-        "publishedAt": "2026-09-27T10:07:11.000Z",
-        "category": "politics"
+        "id": "ea66967b1312",
+        "slug": "ganesh-immersion-process-lasts-42-hours-in-belagavi",
+        "title": "Ganesh immersion process lasts 42 hours in Belagavi",
+        "description": "The public procession of Ganesha idols began on September 25 evening, following the customary puja and aarti at Hutatma Chowk.",
+        "url": "https://www.thehindu.com/news/national/karnataka/ganesh-immersion-process-lasts-42-hours-in-belagavi/article71516705.ece",
+        "image": "https://th-i.thgim.com/public/incoming/mqcba2/article71516911.ece/alternates/LANDSCAPE_615/9727_27_9_2026_19_43_43_2_28BGMGANESHIMMERSION1.JPEG",
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:57:01.000Z",
+        "category": "top"
       },
       {
-        "id": "28c66fdc3200",
-        "slug": "as-heat-grows-on-bihar-government-over-law-and-order-some-pushback-from-within-b",
-        "title": "As heat grows on Bihar government over law and order, some pushback from within BJP",
-        "description": null,
-        "url": "https://indianexpress.com/article/political-pulse/samrat-choudhary-harassment-cases-pile-pressure-bjp-mp-collapsed-policing-bihar-10895473/",
-        "image": "https://images.indianexpress.com/2026/09/Samrath-Choudhari_20260819211159_20260824093851_20260926201800.jpg",
-        "source": "The Indian Express",
-        "publishedAt": "2026-09-27T01:15:46.000Z",
-        "category": "politics"
-      }
-    ],
-    "entertainment": [
-      {
-        "id": "bec92dd1d417",
-        "slug": "lived-with-us-for-18-years-sivakumar-praises-jyotika-reveals-suriya-s-pr-bec92d",
-        "title": "‘Lived with us for 18 years’: Sivakumar praises Jyotika, reveals Suriya’s pre-marriage rule",
-        "description": null,
-        "url": "https://indianexpress.com/article/entertainment/tamil/sivakumar-praises-jyotika-reveals-suriyas-pre-marriage-rule-10896412/",
-        "image": "https://images.indianexpress.com/2026/09/suriya-jyotika-20th-anniversary-vow-renewal-sivakumar-praise-daughter-in-law.jpg",
-        "source": "The Indian Express",
-        "publishedAt": "2026-09-27T14:54:42.000Z",
-        "category": "entertainment"
+        "id": "bf4c493a17ea",
+        "slug": "travel-operators-seek-one-month-tax-waiver-for-out-of-state-tourist-vehicles-dur",
+        "title": "Travel operators seek one-month tax waiver for out-of-State tourist vehicles during Mysuru Dasara",
+        "description": "In a representation to Chief Minister D.K. Shivakumar, Transport Minister Byrathi Suresh and the Transport Commissioner, the association requested that tourist transport vehicles arriving from Kerala, Tamil Nadu, Puducherry, Andhra Pradesh, Telangana, Goa and Maharashtra be exempted from the applicable taxes and permit fees during the festival period.",
+        "url": "https://www.thehindu.com/news/national/karnataka/travel-operators-seek-one-month-tax-waiver-for-out-of-state-tourist-vehicles-during-mysuru-dasara/article71501112.ece",
+        "image": "https://th-i.thgim.com/public/incoming/lwbi0d/article71516907.ece/alternates/LANDSCAPE_615/2303_2_10_2025_18_26_28_3_DASARAPROCESSION2.JPG",
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:56:41.000Z",
+        "category": "top"
       },
       {
-        "id": "581caa3d620f",
-        "slug": "i-felt-hurt-bosco-martis-was-taken-aback-by-vivek-oberoi-s-attitude-after-compan",
-        "title": "‘I felt hurt’: Bosco Martis was taken aback by Vivek Oberoi’s ‘attitude’ after Company",
+        "id": "a57c00d8aa0b",
+        "slug": "godavari-on-the-rise-at-bhadrachalam-as-taliperu-swells-in-upstream-charla-manda",
+        "title": "Godavari on the rise at Bhadrachalam as Taliperu swells in upstream Charla mandal",
         "description": null,
-        "url": "https://indianexpress.com/article/entertainment/bollywood/vivek-oberoi-bosco-martis-attitude-incident-company-saathiya-10896297/",
-        "image": "https://images.indianexpress.com/2026/09/vivek-oberoi-bosco-martis-attitude-incident-company-saathiya.jpg",
-        "source": "The Indian Express",
-        "publishedAt": "2026-09-27T13:25:47.000Z",
-        "category": "entertainment"
+        "url": "https://www.thehindu.com/news/national/telangana/godavari-on-the-rise-at-bhadrachalam-as-taliperu-swells-in-upstream-charla-mandal/article71516799.ece",
+        "image": null,
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:52:59.000Z",
+        "category": "top"
+      },
+      {
+        "id": "8e47811ba661",
+        "slug": "boeing-finds-software-glitch-in-automated-flight-guidance-system-of-max-planes",
+        "title": "Boeing finds software glitch in automated flight guidance system of MAX planes",
+        "description": "Boeing has issued an advisory to operators to reset the system following a missed approach as a precautionary measure to address the issue",
+        "url": "https://www.thehindu.com/news/national/boeing-finds-software-glitch-in-automated-flight-guidance-system-of-max-planes/article71516542.ece",
+        "image": "https://th-i.thgim.com/public/news/national/7xgtee/article71516883.ece/alternates/LANDSCAPE_615/Boeing.jpeg",
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:49:08.000Z",
+        "category": "top"
+      },
+      {
+        "id": "f0dec2324e2f",
+        "slug": "cjp-seeks-to-expand-base-in-keralam",
+        "title": "CJP seeks to expand base in Keralam",
+        "description": "Party announces plans to reach out to students and mobilise support for its protests",
+        "url": "https://www.thehindu.com/news/national/kerala/cjp-seeks-to-expand-base-in-keralam/article71516674.ece",
+        "image": "https://th-i.thgim.com/public/incoming/mr5hh/article71516873.ece/alternates/LANDSCAPE_615/CJP01.jpg",
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:42:56.000Z",
+        "category": "top"
+      },
+      {
+        "id": "32ab3381103d",
+        "slug": "vizag-marks-world-tourism-day-with-heritage-walks-cultural-festivities",
+        "title": "Vizag marks World Tourism Day with heritage walks, cultural festivities",
+        "description": null,
+        "url": "https://www.thehindu.com/news/national/andhra-pradesh/vizags-world-tourism-day-celebrations-spotlight-coastal-development-plans/article71516379.ece",
+        "image": "https://th-i.thgim.com/public/incoming/yv0m42/article71516810.ece/alternates/LANDSCAPE_615/9604_27_9_2026_17_59_42_2_VSP28_HERITAGEWALK2.JPG",
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:42:40.000Z",
+        "category": "top"
+      },
+      {
+        "id": "95e0cc42444c",
+        "slug": "minor-boy-molested-at-satlok-ashram-in-haryana-accused-held",
+        "title": "Minor boy molested at Satlok Ashram in Haryana; accused held",
+        "description": "Police swing into action on a complaint from Child Welfare Committee chairperson",
+        "url": "https://www.thehindu.com/news/national/haryana/minor-boy-molested-at-satlok-ashram-in-haryana-accused-held/article71516586.ece",
+        "image": null,
+        "source": "The Hindu",
+        "publishedAt": "2026-09-27T15:41:48.000Z",
+        "category": "top"
       }
     ],
     "business": [
@@ -195,7 +123,7 @@
         "title": "boAt PartyPal Ultra Review: Party Speaker for Music, Karaoke and Live Performances",
         "description": null,
         "url": "https://indianexpress.com/article/business/sponsored-business/boat-partypal-ultra-review-party-speaker-for-music-karaoke-and-live-performances-10895345/",
-        "image": "https://images.indianexpress.com/2026/09/BB__II__MM__II.jpg",
+        "image": "https://images.indianexpress.com/2026/09/BB__II__MM__II.jpg?w=640",
         "source": "The Indian Express",
         "publishedAt": "2026-09-26T14:58:32.000Z",
         "category": "business"
@@ -206,20 +134,44 @@
         "title": "Net FDI inflows surge to $7.3 bn in July, highest since May 2021",
         "description": null,
         "url": "https://indianexpress.com/article/business/india-net-fdi-july-2026-rbi-data-10895264/",
-        "image": "https://images.indianexpress.com/2026/09/FDI-file-photo-express.jpg",
+        "image": "https://images.indianexpress.com/2026/09/FDI-file-photo-express.jpg?w=640",
         "source": "The Indian Express",
         "publishedAt": "2026-09-26T13:37:42.000Z",
         "category": "business"
       }
     ],
+    "entertainment": [
+      {
+        "id": "bec92dd1d417",
+        "slug": "lived-with-us-for-18-years-sivakumar-praises-jyotika-reveals-suriya-s-pre-marria",
+        "title": "‘Lived with us for 18 years’: Sivakumar praises Jyotika, reveals Suriya’s pre-marriage rule",
+        "description": null,
+        "url": "https://indianexpress.com/article/entertainment/tamil/sivakumar-praises-jyotika-reveals-suriyas-pre-marriage-rule-10896412/",
+        "image": "https://images.indianexpress.com/2026/09/suriya-jyotika-20th-anniversary-vow-renewal-sivakumar-praise-daughter-in-law.jpg?w=640",
+        "source": "The Indian Express",
+        "publishedAt": "2026-09-27T14:54:42.000Z",
+        "category": "entertainment"
+      },
+      {
+        "id": "581caa3d620f",
+        "slug": "i-felt-hurt-bosco-martis-was-taken-aback-by-vivek-oberoi-s-attitude-after-compan",
+        "title": "‘I felt hurt’: Bosco Martis was taken aback by Vivek Oberoi’s ‘attitude’ after Company",
+        "description": null,
+        "url": "https://indianexpress.com/article/entertainment/bollywood/vivek-oberoi-bosco-martis-attitude-incident-company-saathiya-10896297/",
+        "image": "https://images.indianexpress.com/2026/09/vivek-oberoi-bosco-martis-attitude-incident-company-saathiya.jpg?w=640",
+        "source": "The Indian Express",
+        "publishedAt": "2026-09-27T13:25:47.000Z",
+        "category": "entertainment"
+      }
+    ],
     "sports": [
       {
         "id": "02df10a60a2a",
-        "slug": "kohli-brings-up-15000-odi-runs-just-2nd-batter-to-reach-feat-after-tendu-02df10",
+        "slug": "kohli-brings-up-15000-odi-runs-just-2nd-batter-to-reach-feat-after-tendulkar",
         "title": "Kohli brings up 15000 ODI runs, just 2nd batter to reach feat after Tendulkar",
         "description": null,
         "url": "https://indianexpress.com/article/sports/cricket/virat-kohli-15000-odi-runs-record-sachin-tendulkar-10896470/",
-        "image": "https://images.indianexpress.com/2026/09/Kohli-15k.jpg",
+        "image": "https://images.indianexpress.com/2026/09/Kohli-15k.jpg?w=640",
         "source": "The Indian Express",
         "publishedAt": "2026-09-27T14:58:10.000Z",
         "category": "sports"
@@ -230,10 +182,58 @@
         "title": "Outclassed Abhay & Anahat take bitter lessons from Malaysian mauling in squash",
         "description": null,
         "url": "https://indianexpress.com/article/sports/abhay-singh-anahat-singh-bitter-lessons-malaysian-mauling-squash-10896451/",
-        "image": "https://images.indianexpress.com/2026/09/Anahat-Abhay-2.jpg",
+        "image": "https://images.indianexpress.com/2026/09/Anahat-Abhay-2.jpg?w=640",
         "source": "The Indian Express",
         "publishedAt": "2026-09-27T14:36:49.000Z",
         "category": "sports"
+      }
+    ],
+    "politics": [
+      {
+        "id": "a6d1044ba5b2",
+        "slug": "another-reversal-by-vijay-government-revokes-rti-exemption-for-law-and-order-dep",
+        "title": "Another reversal by Vijay government: Revokes RTI exemption for Law and Order department",
+        "description": null,
+        "url": "https://indianexpress.com/article/political-pulse/tamil-nadu-vijay-revokes-rti-act-exemption-law-and-order-department-10896167/",
+        "image": "https://images.indianexpress.com/2026/09/Vijay_090365.jpg?w=640",
+        "source": "The Indian Express",
+        "publishedAt": "2026-09-27T10:07:11.000Z",
+        "category": "politics"
+      },
+      {
+        "id": "28c66fdc3200",
+        "slug": "as-heat-grows-on-bihar-government-over-law-and-order-some-pushback-from-within-b",
+        "title": "As heat grows on Bihar government over law and order, some pushback from within BJP",
+        "description": null,
+        "url": "https://indianexpress.com/article/political-pulse/samrat-choudhary-harassment-cases-pile-pressure-bjp-mp-collapsed-policing-bihar-10895473/",
+        "image": "https://images.indianexpress.com/2026/09/Samrath-Choudhari_20260819211159_20260824093851_20260926201800.jpg?w=640",
+        "source": "The Indian Express",
+        "publishedAt": "2026-09-27T01:15:46.000Z",
+        "category": "politics"
+      }
+    ],
+    "technology": [
+      {
+        "id": "68edd90b76a5",
+        "slug": "us-govt-sites-as-targets-evading-captchas-what-openai-s-runaway-agents-got-up-to",
+        "title": "US govt sites as targets, evading CAPTCHAs: What OpenAI’s runaway agents got up to",
+        "description": null,
+        "url": "https://indianexpress.com/article/technology/artificial-intelligence/us-govt-sites-targeted-what-openai-agents-did-10896300/",
+        "image": "https://images.indianexpress.com/2026/09/Tech-featured-image2-1.jpg?w=640",
+        "source": "The Indian Express",
+        "publishedAt": "2026-09-27T12:05:19.000Z",
+        "category": "technology"
+      },
+      {
+        "id": "97b2ab0b6671",
+        "slug": "jbl-live-beam-4-review-when-your-earphones-learn-how-you-hear",
+        "title": "JBL Live Beam 4 review: When your earphones learn how you hear",
+        "description": null,
+        "url": "https://indianexpress.com/article/technology/tech-reviews/jbl-live-beam-4-review-price-india-10895870/",
+        "image": "https://images.indianexpress.com/2026/09/Tech-featured-image1-1.jpg?w=640",
+        "source": "The Indian Express",
+        "publishedAt": "2026-09-27T06:38:53.000Z",
+        "category": "technology"
       }
     ]
   }

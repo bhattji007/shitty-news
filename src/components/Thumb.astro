@@ -4,9 +4,8 @@ interface Props { article: Article; ratio?: '169' | '43'; badge?: string; live?:
 const { article, ratio = '43', badge, live = false, eager = false } = Astro.props;
 ---
 <div class={`thumb thumb--${ratio}`}>
-  {article.image
-    ? <img src={article.image} alt="" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" referrerpolicy="no-referrer" />
-    : <div class="ph ph--rep" style="position:absolute;inset:0">[file photo]</div>}
+  <div class="ph ph--rep" style="position:absolute;inset:0">[file photo]</div>
+  {article.image && <img src={article.image} alt="" loading={eager ? 'eager' : 'lazy'} fetchpriority={eager ? 'high' : 'auto'} decoding="async" referrerpolicy="no-referrer" onerror="this.remove()" style="position:relative" />}
   {live && <span class="badge badge--live">LIVE UPDATES</span>}
   {badge && !live && <span class="badge">{badge}</span>}
 </div>

@@ -1,5 +1,6 @@
 import { createHash } from 'node:crypto';
 import type { Article } from './types.ts';
+import { downsizeImage } from './images.ts';
 
 // Raw shape of one NewsData.io result (only the fields we read).
 export type NewsDataResult = {
@@ -57,7 +58,7 @@ export function normaliseNewsData(r: NewsDataResult, fallbackCategory: string, l
     title,
     description: clean(r.description),
     url: link,
-    image: clean(r.image_url),
+    image: downsizeImage(clean(r.image_url)),
     source: clean(r.source_name) ?? clean(r.source_id) ?? 'Unknown',
     publishedAt: toIso(r.pubDate, r.pubDateTZ),
     category: r.category?.[0] ?? fallbackCategory,
@@ -91,7 +92,7 @@ export function normaliseRss(item: RssItem, source: string, category: string): A
     title,
     description,
     url: link,
-    image: clean(item.media?.$?.url) ?? clean(item.thumb?.$?.url) ?? clean(item.enclosure?.url),
+    image: downsizeImage(clean(item.media?.$?.url) ?? clean(item.thumb?.$?.url) ?? clean(item.enclosure?.url)),
     source,
     publishedAt: toIso(item.isoDate ?? item.pubDate, 'ISO'),
     category,
