@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /maintenance
-Sitemap: https://shittynews.in/sitemap.xml
+Sitemap: https://shittynews.com/sitemap.xml

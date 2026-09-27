@@ -1,4 +1,4 @@
-# shittynews.in
+# shittynews.com
 
 The site is the parody. Real, boring Indian news headlines are shown exactly as their sources published them. Everything around them is a loving reproduction of Indian news-site dark patterns: the 400-vendor cookie panel, the five-stage paywall for a ₹0 subscription, the sticky banner whose close button runs away, the "Ad 1 of 47" video that never starts, the comments section with the same three comments on every story, and a "Lite" version that loads a 2 MB image first. Under the hood it is a static Astro site that scores ~100 on Lighthouse. That is part of the joke.
 

@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
-  "description": "shittynews.in — the site is the parody. Real headlines, fake chrome.",
+  "description": "shittynews.com — the site is the parody. Real headlines, fake chrome.",
   "scripts": {
     "fetch-news": "node scripts/fetch-news.ts",
     "predev": "node scripts/make-lite-hero.ts",
