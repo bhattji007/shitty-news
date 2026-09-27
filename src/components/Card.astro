@@ -8,9 +8,9 @@ const badges = ['LIVE', '', '', '▶ 01:42', 'PHOTOS 14', '', '', 'EXPLAINED', '
 const badge = badges[index % badges.length];
 ---
 <a class="card" href={`/article/${article.slug}`}>
-  <Thumb article={article} badge={badge || undefined} />
+  <Thumb article={article} badge={badge || undefined} alt={article.title} />
   <div class="card__body">
-    <div class="card__title">{article.title}</div>
+    <h3 class="card__title">{article.title}</h3>
     <div class="card__meta">{catLabel(article.category)} · {timeAgo(article.publishedAt)}</div>
   </div>
 </a>

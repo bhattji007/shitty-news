@@ -46,6 +46,7 @@ jobs:
         run: npm run build
         env:
           STREAM_ENABLED: ${{ vars.STREAM_ENABLED || 'false' }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION || '' }}
 
       - name: Save news cache
         uses: actions/cache/save@v4
@@ -59,3 +60,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+
+      - name: Ping IndexNow
+        if: success()
+        run: node scripts/indexnow.ts

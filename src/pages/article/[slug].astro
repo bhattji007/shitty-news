@@ -12,6 +12,7 @@ import { allArticles, topStories } from '../../lib/news/load.ts';
 import { istDateTime, catLabel } from '../../lib/format.ts';
 import products from '../../../data/products.json';
 import type { Article } from '../../lib/news/types.ts';
+import { newsArticleLd, breadcrumbLd } from '../../lib/seo.ts';
 
 export function getStaticPaths() {
   return allArticles().filter((a) => !a.live).map((a) => ({ params: { slug: a.slug }, props: { article: a } }));
@@ -27,20 +28,20 @@ const sponsored = [
   { t: 'This new SUV has 7 airbags. Book a test drive', s: 'AutoDekho Partner', id: products[5]!.id },
 ];
 ---
-<Base title={`${article.title} — ShittyNews.com`} page="article" description={article.description ?? article.title} preloadImage={article.image}>
+<Base title={`${article.title} — ShittyNews.com`} page="article" description={article.description ?? `${article.title} — reported by ${article.source}. Headline shown exactly as published.`} preloadImage={article.image} image={article.image} type="article" publishedAt={article.publishedAt} canonical={`/article/${article.slug}`} jsonLd={[newsArticleLd(article, `/article/${article.slug}`), breadcrumbLd([{ name: 'Home', path: '/' }, { name: catLabel(article.category), path: `/category/${article.category}` }, { name: article.title, path: `/article/${article.slug}` }])]}>
   <div class="wrap">
     <article class="main box article">
       <div class="crumbs">News › {catLabel(article.category)} › {article.source} › <span class="cur" style="display:inline-block;max-width:40ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom">{article.title}</span></div>
       <h1>{article.title}</h1>
       <div class="byline">
-        <span><b>{article.source}</b> via SNN (ShittyNews Network) | Last updated: {istDateTime(article.publishedAt)}</span>
+        <span><b>{article.source}</b> via SNN (ShittyNews Network) | Last updated: <time datetime={article.publishedAt}>{istDateTime(article.publishedAt)}</time></span>
         <span class="pill-30">◷ Read in 30 seconds</span>
         <span class="gnews">+ Follow us on Google News</span>
         <span class="spacer"></span>
         <button class="fontbtn" type="button">A-</button><button class="fontbtn" type="button">A+</button>
       </div>
       <Share url={pageUrl} title={article.title} />
-      <Thumb article={article} ratio="169" eager />
+      <Thumb article={article} ratio="169" eager alt={article.title} />
       <div class="credit">Representational image / File / Twitter / Reuters (probably)</div>
       <div class="listen"><span>▶</span> Listen to this article · 00:14</div>
 

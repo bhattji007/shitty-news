@@ -8,6 +8,7 @@ node_modules/
 .astro/
 .wrangler/
 public/lite-hero.bmp
+public/og-default.png
 .DS_Store
 npm-debug.log*
 stream/node_modules/

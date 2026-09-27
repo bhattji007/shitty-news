@@ -4,6 +4,6 @@ import HomeContent from '../components/HomeContent.astro';
 import { topStories } from '../lib/news/load.ts';
 const articles = topStories();
 ---
-<Base title="ShittyNews.com Lite — Faster*, Lighter*, Same" page="lite" lite preloadImage={articles[0]?.image}>
+<Base title="ShittyNews.com Lite — Faster*, Lighter*, Same" page="lite" lite preloadImage={articles[0]?.image} canonical="/" noindex>
   <HomeContent articles={articles} live />
 </Base>

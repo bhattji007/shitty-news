@@ -4,6 +4,7 @@ import HomeContent from '../../components/HomeContent.astro';
 import { CATEGORIES } from '../../lib/news/types.ts';
 import { byCategory } from '../../lib/news/load.ts';
 import { catLabel } from '../../lib/format.ts';
+import { collectionLd, breadcrumbLd } from '../../lib/seo.ts';
 
 export function getStaticPaths() {
   return CATEGORIES.map((cat) => ({ params: { cat } }));
@@ -11,6 +12,6 @@ export function getStaticPaths() {
 const { cat } = Astro.params;
 const articles = byCategory(cat!);
 ---
-<Base title={`${catLabel(cat!)} News — ShittyNews.com`} page="category" preloadImage={articles[0]?.image}>
+<Base title={`${catLabel(cat!)} News — ShittyNews.com`} page="category" preloadImage={articles[0]?.image} description={`Latest ${catLabel(cat!).toLowerCase()} headlines from Indian publishers, shown exactly as published, on ShittyNews.com.`} canonical={`/category/${cat}`} jsonLd={[collectionLd(`${catLabel(cat!)} News`, `/category/${cat}`, articles), breadcrumbLd([{ name: 'Home', path: '/' }, { name: catLabel(cat!), path: `/category/${cat}` }])]}>
   <HomeContent articles={articles} category={catLabel(cat!)} />
 </Base>

@@ -8,7 +8,7 @@ const href = `/article/${article.slug}`;
 const prefixes = ['Explained:', 'Watch:', 'In pics:', 'Live updates:'];
 ---
 <div class="box lead">
-  <a href={href}><Thumb article={article} ratio="169" live eager /></a>
+  <a href={href}><Thumb article={article} ratio="169" live eager alt={article.title} /></a>
   <div>
     <div class="kicker">{catLabel(article.category)} · {timeAgo(article.publishedAt)}</div>
     <h2><a href={href}>{article.title}</a></h2>

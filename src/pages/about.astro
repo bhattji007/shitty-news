@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import { aboutLd, breadcrumbLd } from '../lib/seo.ts';
+import { loadNews } from '../lib/news/load.ts';
+const news = loadNews();
+---
+<Base
+  title="About ShittyNews — what is real, what is not"
+  page="about"
+  description="ShittyNews.com shows real Indian headlines verbatim inside a parody of news-site dark patterns. Here is what is real, what is fake, how the headlines are sourced, and how to reach us."
+  canonical="/about"
+  jsonLd={[aboutLd(), breadcrumbLd([{ name: 'Home', path: '/' }, { name: 'About', path: '/about' }])]}
+>
+  <div class="wrap">
+    <article class="main box article" style="max-width:820px">
+      <h1>About ShittyNews</h1>
+      <p class="story-p">ShittyNews.com is a satirical news website. The joke is not the news. The joke is the website.</p>
+
+      <h2 style="font:bold 20px var(--font-head);margin:18px 0 6px">What is real</h2>
+      <p class="story-p"><strong>Every headline and every summary is real and unaltered.</strong> They are fetched hourly from <a href="https://newsdata.io" rel="noopener">NewsData.io</a> and, when that is unavailable, from the RSS feeds of PIB, The Hindu, The Indian Express and NDTV. We never rewrite, shorten, paraphrase or "improve" a headline. Each article page shows the source name and links to the original story, which is where the actual reporting lives. Please read it there. Headlines about death, violence and disasters are deliberately left out: the parody is of the website, not of tragedy.</p>
+
+      <h2 style="font:bold 20px var(--font-head);margin:18px 0 6px">What is not real</h2>
+      <p class="story-p">Everything around the headlines is a parody of the dark patterns common on large Indian news portals, turned up slightly. Specifically:</p>
+      <ul style="font:15px/1.6 var(--font-ui);padding-left:20px">
+        <li>The advertisements are placeholders. Nothing is being advertised and no advertiser exists.</li>
+        <li>The "sponsored" products, the advertorials and their testimonials are fiction. They cannot be bought. "Buy now" opens a parody paywall.</li>
+        <li>The subscription plans cost ₹0 and do not exist. No payment is ever requested or taken.</li>
+        <li>The cookie consent panel and its 400 "partners" are fiction. No data is shared with anyone, because no data is collected.</li>
+        <li>The comments are three fixed comments shown on every story. Nobody can post.</li>
+        <li>The poll always returns 51/49. The "LIVE" box, the "trending" list, the video ad and the notification prompts are all part of the act.</li>
+        <li>The weather and AQI figures in the masthead are decorative, except the Meerut temperature, which is fetched live from Open-Meteo because we thought that was funnier.</li>
+      </ul>
+
+      <h2 style="font:bold 20px var(--font-head);margin:18px 0 6px">Privacy</h2>
+      <p class="story-p">There is no analytics, no advertising network, no third-party script and no data collection. The only cookies are the handful the gags need to remember that they have already annoyed you, plus one that turns them all off. Add <code>?sane=1</code> to any address to get a plain, readable version of the same page.</p>
+
+      <h2 style="font:bold 20px var(--font-head);margin:18px 0 6px">Corrections and takedowns</h2>
+      <p class="story-p">If you are a publisher and would rather your headlines did not appear here, or you spot a headline that should have been filtered, open an issue on <a href="https://github.com/bhattji007/shitty-news/issues" rel="noopener">GitHub</a> and it will be handled promptly. The site is open source under the same repository.</p>
+
+      <p style="font-size:12px;color:#888;margin-top:20px">Content last refreshed: {news.fetchedAt}. Powered by NewsData.io. Weather by Open-Meteo.</p>
+    </article>
+  </div>
+</Base>

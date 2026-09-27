@@ -7,7 +7,7 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props as { p: (typeof products)[number] };
 ---
-<Base title={`${p.headline} — ${p.brand}`} page="sponsored" chrome={false}>
+<Base title={`${p.headline} — ${p.brand}`} page="sponsored" chrome={false} canonical={`/sponsored/${p.id}`} description={`${p.name}: ${p.claims}. A parody advertorial on ShittyNews.com; this product does not exist and nothing is sold.`}>
   <div class="advert">
     <div class="lbl">Advertorial</div>
     <div class="hdr">

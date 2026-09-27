@@ -14,6 +14,9 @@ const stories = articles.slice(13, 19).length ? articles.slice(13, 19) : article
 ---
 <div class="wrap">
   <div class="main">
+    {category
+      ? <h1 style="font:bold 22px var(--font-head);margin:0 0 10px">{category}</h1>
+      : <h1 class="visually-hidden">ShittyNews.com — India's top news headlines, exactly as published, on India's #1 news website*</h1>}
     {lead ? <LeadStory article={lead} /> : <div class="box" style="padding:20px;color:#666">No news yet. This is unusual. Read in 30 seconds anyway.</div>}
     <SectionHead title={category ? category.toUpperCase() : 'TOP NEWS'} more={category ? `/category/${category}` : '/category/top'} />
     <NewsGrid articles={grid} />

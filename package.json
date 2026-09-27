@@ -6,14 +6,15 @@
   "description": "shittynews.com — the site is the parody. Real headlines, fake chrome.",
   "scripts": {
     "fetch-news": "node scripts/fetch-news.ts",
-    "predev": "node scripts/make-lite-hero.ts",
+    "predev": "node scripts/make-lite-hero.ts && node scripts/make-og.ts",
     "dev": "astro dev",
-    "prebuild": "node scripts/make-lite-hero.ts",
+    "prebuild": "node scripts/make-lite-hero.ts && node scripts/make-og.ts",
     "build": "astro build",
     "preview": "astro preview",
     "verify": "node scripts/verify.ts",
     "test:browser": "node scripts/browser-test.mjs",
-    "deploy": "wrangler pages deploy dist --project-name shittynews"
+    "deploy": "wrangler pages deploy dist --project-name shittynews",
+    "indexnow": "node scripts/indexnow.ts"
   },
   "engines": {
     "node": ">=22.18"

@@ -7,7 +7,9 @@ import { tmpdir } from 'node:os';
 
 const BRAVE = process.env.CHROME_PATH || '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser';
 const BASE = 'http://127.0.0.1:4321';
-const PORT = 9333;
+const PORT = 9300 + Math.floor(Math.random() * 400);
+// A browser left over from an earlier crashed run would carry old cookies; make sure the port is ours.
+try { await fetch(`http://127.0.0.1:${PORT}/json/version`); console.error(`port ${PORT} already has a browser; refusing to run against it`); process.exit(2); } catch { /* free */ }
 const profile = mkdtempSync(tmpdir() + '/sn-');
 const brave = spawn(BRAVE, [`--headless=new`, `--remote-debugging-port=${PORT}`, `--user-data-dir=${profile}`, '--no-first-run', '--disable-gpu', 'about:blank'], { stdio: 'ignore' });
 await new Promise((r) => setTimeout(r, 2500));
@@ -107,5 +109,6 @@ ok('lite: hero loaded, page revealed, labelled', await tab.evalJs(`document.docu
 await tab.close();
 
 brave.kill();
+process.on('exit', () => { try { brave.kill(); } catch {} });
 console.log(fails ? `\n${fails} browser check(s) failed` : '\nall browser checks passed');
 process.exit(fails ? 1 : 0);

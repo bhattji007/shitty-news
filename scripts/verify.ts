@@ -83,5 +83,30 @@ ok('products.json has 6 products', (JSON.parse(readFileSync(resolve(ROOT, 'data/
 ok('lite hero ≥ 2 MB', existsSync(resolve(ROOT, 'public/lite-hero.bmp')) && statSync(resolve(ROOT, 'public/lite-hero.bmp')).size >= 2_000_000);
 ok('/live function exists', existsSync(resolve(ROOT, 'functions/live.ts')));
 
+// SEO
+const jsonLdBlocks = (html: string) => [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => JSON.parse(m[1]!));
+try {
+  const homeLd = jsonLdBlocks(home).flat();
+  ok('homepage JSON-LD parses and has WebSite + NewsMediaOrganization + CollectionPage', ['WebSite', 'NewsMediaOrganization', 'CollectionPage'].every((t) => homeLd.some((x: { '@type': string }) => x['@type'] === t)));
+  if (sampleArticle) {
+    const ah = readFileSync(join(DIST, 'article', `${sampleArticle.slug}.html`), 'utf8');
+    const ald = jsonLdBlocks(ah).flat();
+    const na = ald.find((x: { '@type': string }) => x['@type'] === 'NewsArticle') as { headline: string; isBasedOn: string } | undefined;
+    ok('article JSON-LD NewsArticle has verbatim headline + isBasedOn source url', !!na && na.headline === sampleArticle.title && na.isBasedOn === sampleArticle.url);
+    ok('article has canonical, og:image/type=article, published_time, breadcrumbs', ah.includes(`<link rel="canonical" href="https://shittynews.com/article/${sampleArticle.slug}"`) && ah.includes('<meta property="og:type" content="article"') && ah.includes('article:published_time') && ald.some((x: { '@type': string }) => x['@type'] === 'BreadcrumbList'));
+  }
+} catch (e) { ok('JSON-LD parses', false, (e as Error).message); }
+ok('homepage has exactly one h1', (home.match(/<h1[\s>]/g) ?? []).length === 1);
+ok('canonical URLs are clean (no .html)', !pages.some((p) => /<link rel="canonical" href="[^"]+\.html"/.test(readFileSync(p, 'utf8'))));
+ok('joke pages are noindex (lite, maintenance, e-paper, 404)', ['lite', 'maintenance', 'e-paper', '404'].every((n) => readFileSync(join(DIST, `${n}.html`), 'utf8').includes('content="noindex, nofollow"')));
+const sm = existsSync(join(DIST, 'sitemap.xml')) ? readFileSync(join(DIST, 'sitemap.xml'), 'utf8') : '';
+ok('sitemap.xml lists every article page', sm.includes('<urlset') && articles.filter((a) => !a.live).every((a) => sm.includes(`<loc>https://shittynews.com/article/${a.slug}</loc>`)));
+const feed = existsSync(join(DIST, 'feed.xml')) ? readFileSync(join(DIST, 'feed.xml'), 'utf8') : '';
+ok('feed.xml is RSS with source attribution', feed.includes('<rss version="2.0"') && feed.includes('<source url=') && (feed.match(/<item>/g) ?? []).length > 0);
+ok('llms.txt describes the site and lists headlines', existsSync(join(DIST, 'llms.txt')) && readFileSync(join(DIST, 'llms.txt'), 'utf8').includes('# ShittyNews') && readFileSync(join(DIST, 'llms.txt'), 'utf8').includes('/article/'));
+ok('about page exists with h1', existsSync(join(DIST, 'about.html')) && readFileSync(join(DIST, 'about.html'), 'utf8').includes('<h1>About ShittyNews</h1>'));
+ok('og-default.png shipped', existsSync(join(DIST, 'og-default.png')));
+ok('robots.txt allows AI crawlers and points at sitemap', readFileSync(join(DIST, 'robots.txt'), 'utf8').includes('User-agent: GPTBot') && readFileSync(join(DIST, 'robots.txt'), 'utf8').includes('Sitemap: https://shittynews.com/sitemap.xml'));
+
 console.log(fails ? `\n${fails} check(s) failed` : '\nall checks passed');
 process.exit(fails ? 1 : 0);

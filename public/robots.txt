@@ -1,4 +1,38 @@
+# ShittyNews.com — everything is crawlable except the pages that are jokes about being broken.
 User-agent: *
 Allow: /
 Disallow: /maintenance
+Disallow: /e-paper
+Disallow: /lite
+
+# AI crawlers and assistants are welcome. Start with /llms.txt and /about for an accurate description.
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+
 Sitemap: https://shittynews.com/sitemap.xml

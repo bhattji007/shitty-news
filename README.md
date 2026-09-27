@@ -57,6 +57,10 @@ Everything in `src/annoyances/` is vanilla TypeScript with no dependencies.
 
 NewsData.io's WebSocket stream is very likely a paid add-on, so it is built but disabled. To turn it on: create a KV namespace, bind it as `LIVE` in `wrangler.toml` or the Pages dashboard, run the `stream/` container somewhere that keeps a process alive (Fly.io, Railway, a small pod — not Workers), and set the repository variable `STREAM_ENABLED=true`. With it off, `/live` returns `[]` and the homepage LIVE box pulses "nothing yet", forever.
 
+## SEO and AI discoverability
+
+Every page ships a canonical URL, Open Graph and Twitter cards, and JSON-LD (`WebSite`, `NewsMediaOrganization`, `NewsArticle` with the verbatim headline and `isBasedOn` pointing at the original story, `BreadcrumbList`, `CollectionPage`). `/sitemap.xml`, `/feed.xml` and `/llms.txt` are generated at build time from the same news data. `/about` explains what is real and what is not, for humans and for AI assistants. `robots.txt` explicitly allows the major AI crawlers and hides the pages that are jokes about being broken. After each deploy the workflow pings IndexNow with the sitemap URLs. Google Search Console verification is a repository variable, `GOOGLE_SITE_VERIFICATION`; set it and redeploy.
+
 ## Attribution
 
 Headlines by their respective publishers. News data powered by [NewsData.io](https://newsdata.io). Weather by [Open-Meteo](https://open-meteo.com) (no key, no tracking).
